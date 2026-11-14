@@ -1,0 +1,329 @@
+[
+  {
+    "id": "sample-1",
+    "handle": "sample-1-necklaces",
+    "title": "Sample Designer A Necklace (sample)",
+    "descriptionHtml": "<p>TODO: placeholder description. Replace with Aram&rsquo;s real piece story.</p>",
+    "price": null,
+    "images": [
+      {
+        "url": "/placeholder/sample-1.jpg",
+        "alt": "Gold-tone bib necklace with faux pearls (sample image)",
+        "width": 896,
+        "height": 1120
+      },
+      {
+        "url": "/placeholder/sample-1-worn.jpg",
+        "alt": "Gold-tone bib necklace with faux pearls, worn (sample image)",
+        "width": 1792,
+        "height": 2240
+      }
+    ],
+    "category": "necklaces",
+    "edit": "sample-edit",
+    "createdAt": "2026-10-01T00:00:00.000Z",
+    "designer": "Sample Designer A",
+    "decade": "1960s",
+    "origin": "TODO",
+    "materials": "TODO",
+    "condition": "TODO",
+    "measurements": "TODO",
+    "clasp": "TODO",
+    "saleStatus": "available",
+    "isSample": true
+  },
+  {
+    "id": "sample-2",
+    "handle": "sample-2-earrings",
+    "title": "Sample Designer B Earrings (sample)",
+    "descriptionHtml": "<p>TODO: placeholder description. Replace with Aram&rsquo;s real piece story.</p>",
+    "price": null,
+    "images": [
+      {
+        "url": "/placeholder/sample-2.jpg",
+        "alt": "Hammered gold-tone knot clip-on earrings (sample image)",
+        "width": 896,
+        "height": 1120
+      },
+      {
+        "url": "/placeholder/sample-2-worn.jpg",
+        "alt": "Hammered gold-tone knot clip-on earrings, worn (sample image)",
+        "width": 1792,
+        "height": 2240
+      }
+    ],
+    "category": "earrings",
+    "edit": "sample-edit",
+    "createdAt": "2026-10-02T00:00:00.000Z",
+    "designer": "Sample Designer B",
+    "decade": "1970s",
+    "origin": "TODO",
+    "materials": "TODO",
+    "condition": "TODO",
+    "measurements": "TODO",
+    "clasp": "TODO",
+    "earringType": "clip",
+    "saleStatus": "available",
+    "isSample": true
+  },
+  {
+    "id": "sample-3",
+    "handle": "sample-3-bracelets",
+    "title": "Sample Designer C Bracelet (sample)",
+    "descriptionHtml": "<p>TODO: placeholder description. Replace with Aram&rsquo;s real piece story.</p>",
+    "price": null,
+    "images": [
+      {
+        "url": "/placeholder/sample-3.jpg",
+        "alt": "Gold-tone cuff bracelet with black enamel (sample image)",
+        "width": 896,
+        "height": 1120
+      },
+      {
+        "url": "/placeholder/sample-3-worn.jpg",
+        "alt": "Gold-tone cuff bracelet with black enamel, worn (sample image)",
+        "width": 1792,
+        "height": 2240
+      }
+    ],
+    "category": "bracelets",
+    "edit": "sample-edit",
+    "createdAt": "2026-10-03T00:00:00.000Z",
+    "designer": "Sample Designer C",
+    "decade": "1980s",
+    "origin": "TODO",
+    "materials": "TODO",
+    "condition": "TODO",
+    "measurements": "TODO",
+    "clasp": "TODO",
+    "saleStatus": "reserved",
+    "isSample": true
+  },
+  {
+    "id": "sample-4",
+    "handle": "sample-4-rings",
+    "title": "Sample Designer A Ring (sample)",
+    "descriptionHtml": "<p>TODO: placeholder description. Replace with Aram&rsquo;s real piece story.</p>",
+    "price": null,
+    "images": [
+      {
+        "url": "/placeholder/sample-4.jpg",
+        "alt": "Gold-tone cocktail ring with green glass cabochon (sample image)",
+        "width": 896,
+        "height": 1120
+      },
+      {
+        "url": "/placeholder/sample-4-worn.jpg",
+        "alt": "Gold-tone cocktail ring with green glass cabochon, worn (sample image)",
+        "width": 1792,
+        "height": 2240
+      }
+    ],
+    "category": "rings",
+    "edit": "sample-edit",
+    "createdAt": "2026-10-04T00:00:00.000Z",
+    "designer": "Sample Designer A",
+    "decade": "1990s",
+    "origin": "TODO",
+    "materials": "TODO",
+    "condition": "TODO",
+    "measurements": "TODO",
+    "clasp": "TODO",
+    "saleStatus": "available",
+    "isSample": true
+  },
+  {
+    "id": "sample-5",
+    "handle": "sample-5-brooches",
+    "title": "Sample Designer B Brooch (sample)",
+    "descriptionHtml": "<p>TODO: placeholder description. Replace with Aram&rsquo;s real piece story.</p>",
+    "price": null,
+    "images": [
+      {
+        "url": "/placeholder/sample-5.jpg",
+        "alt": "Gold-tone floral brooch with rhinestones and faux pearl (sample image)",
+        "width": 896,
+        "height": 1120
+      },
+      {
+        "url": "/placeholder/sample-5-worn.jpg",
+        "alt": "Gold-tone floral brooch with rhinestones and faux pearl, worn (sample image)",
+        "width": 1792,
+        "height": 2240
+      }
+    ],
+    "category": "brooches",
+    "createdAt": "2026-10-05T00:00:00.000Z",
+    "designer": "Sample Designer B",
+    "decade": "1960s",
+    "origin": "TODO",
+    "materials": "TODO",
+    "condition": "TODO",
+    "measurements": "TODO",
+    "clasp": "TODO",
+    "saleStatus": "available",
+    "isSample": true
+  },
+  {
+    "id": "sample-6",
+    "handle": "sample-6-earrings",
+    "title": "Sample Designer C Earrings (sample)",
+    "descriptionHtml": "<p>TODO: placeholder description. Replace with Aram&rsquo;s real piece story.</p>",
+    "price": null,
+    "images": [
+      {
+        "url": "/placeholder/sample-6.jpg",
+        "alt": "Faux pearl dome clip-on earrings with gold-tone rope frame (sample image)",
+        "width": 896,
+        "height": 1120
+      },
+      {
+        "url": "/placeholder/sample-6-worn.jpg",
+        "alt": "Faux pearl dome clip-on earrings with gold-tone rope frame, worn (sample image)",
+        "width": 1792,
+        "height": 2240
+      }
+    ],
+    "category": "earrings",
+    "createdAt": "2026-10-06T00:00:00.000Z",
+    "designer": "Sample Designer C",
+    "decade": "1970s",
+    "origin": "TODO",
+    "materials": "TODO",
+    "condition": "TODO",
+    "measurements": "TODO",
+    "clasp": "TODO",
+    "earringType": "clip",
+    "saleStatus": "sold",
+    "isSample": true
+  },
+  {
+    "id": "sample-7",
+    "handle": "sample-7-necklaces",
+    "title": "Sample Designer A Necklace (sample)",
+    "descriptionHtml": "<p>TODO: placeholder description. Replace with Aram&rsquo;s real piece story.</p>",
+    "price": null,
+    "images": [
+      {
+        "url": "/placeholder/sample-7.jpg",
+        "alt": "Multi-strand gold-tone chain necklace with medallion (sample image)",
+        "width": 896,
+        "height": 1120
+      },
+      {
+        "url": "/placeholder/sample-7-worn.jpg",
+        "alt": "Multi-strand gold-tone chain necklace with medallion, worn (sample image)",
+        "width": 1792,
+        "height": 2240
+      }
+    ],
+    "category": "necklaces",
+    "createdAt": "2026-10-07T00:00:00.000Z",
+    "designer": "Sample Designer A",
+    "decade": "1980s",
+    "origin": "TODO",
+    "materials": "TODO",
+    "condition": "TODO",
+    "measurements": "TODO",
+    "clasp": "TODO",
+    "saleStatus": "available",
+    "isSample": true
+  },
+  {
+    "id": "sample-8",
+    "handle": "sample-8-brooches",
+    "title": "Sample Designer B Brooch (sample)",
+    "descriptionHtml": "<p>TODO: placeholder description. Replace with Aram&rsquo;s real piece story.</p>",
+    "price": null,
+    "images": [
+      {
+        "url": "/placeholder/sample-8.jpg",
+        "alt": "Gold-tone bow brooch with red glass stones (sample image)",
+        "width": 896,
+        "height": 1120
+      },
+      {
+        "url": "/placeholder/sample-8-worn.jpg",
+        "alt": "Gold-tone bow brooch with red glass stones, worn (sample image)",
+        "width": 1792,
+        "height": 2240
+      }
+    ],
+    "category": "brooches",
+    "createdAt": "2026-10-08T00:00:00.000Z",
+    "designer": "Sample Designer B",
+    "decade": "1990s",
+    "origin": "TODO",
+    "materials": "TODO",
+    "condition": "TODO",
+    "measurements": "TODO",
+    "clasp": "TODO",
+    "saleStatus": "sold",
+    "isSample": true
+  },
+  {
+    "id": "sample-9",
+    "handle": "sample-9-necklaces",
+    "title": "Sample Designer C Necklace (sample)",
+    "descriptionHtml": "<p>TODO: placeholder description. Replace with Aram&rsquo;s real piece story.</p>",
+    "price": null,
+    "images": [
+      {
+        "url": "/placeholder/sample-9.jpg",
+        "alt": "Graduated faux pearl strand with gold-tone clasp (sample image)",
+        "width": 896,
+        "height": 1120
+      },
+      {
+        "url": "/placeholder/sample-9-worn.jpg",
+        "alt": "Graduated faux pearl strand with gold-tone clasp, worn (sample image)",
+        "width": 1792,
+        "height": 2240
+      }
+    ],
+    "category": "necklaces",
+    "createdAt": "2026-10-09T00:00:00.000Z",
+    "designer": "Sample Designer C",
+    "decade": "1960s",
+    "origin": "TODO",
+    "materials": "TODO",
+    "condition": "TODO",
+    "measurements": "TODO",
+    "clasp": "TODO",
+    "saleStatus": "available",
+    "isSample": true
+  },
+  {
+    "id": "sample-10",
+    "handle": "sample-10-earrings",
+    "title": "Sample Designer A Earrings (sample)",
+    "descriptionHtml": "<p>TODO: placeholder description. Replace with Aram&rsquo;s real piece story.</p>",
+    "price": null,
+    "images": [
+      {
+        "url": "/placeholder/sample-10.jpg",
+        "alt": "Brushed gold-tone half-moon clip-on earrings (sample image)",
+        "width": 896,
+        "height": 1120
+      },
+      {
+        "url": "/placeholder/sample-10-worn.jpg",
+        "alt": "Brushed gold-tone half-moon clip-on earrings, worn (sample image)",
+        "width": 1792,
+        "height": 2240
+      }
+    ],
+    "category": "earrings",
+    "createdAt": "2026-10-10T00:00:00.000Z",
+    "designer": "Sample Designer A",
+    "decade": "1970s",
+    "origin": "TODO",
+    "materials": "TODO",
+    "condition": "TODO",
+    "measurements": "TODO",
+    "clasp": "TODO",
+    "earringType": "clip",
+    "saleStatus": "available",
+    "isSample": true
+  }
+]

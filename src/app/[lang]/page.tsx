@@ -7,29 +7,30 @@ import { PieceImage } from "@/components/piece-image";
 import { SignatureMark } from "@/components/signature-mark";
 import { NumberedList, SectionHeading } from "@/components/section-heading";
 import { getCurrentEdit, getFacets, listPieces } from "@/lib/catalog";
-import { editorial } from "@/lib/editorial";
-import { decadeLabel, localePath } from "@/lib/i18n";
+import { editorial, imageOf } from "@/lib/editorial";
+import { decadeLabel, localePath, type Lang } from "@/lib/i18n";
 import { getI18n } from "@/lib/locale-server";
 import { CATEGORY_ORDER, site, slugify } from "@/lib/site";
 
 const pad = (n: number) => String(n).padStart(2, "0");
 
 /** Art-directed hero: tall still life on phones, wide still life on desktop. */
-function HeroPicture() {
-  const common = { alt: editorial.heroWide.alt, sizes: "100vw", priority: true };
+function HeroPicture({ lang }: { lang: Lang }) {
+  const common = { alt: editorial.heroWide.alt[lang], sizes: "100vw", priority: true };
   const {
     props: { srcSet: wide },
-  } = getImageProps({ ...common, ...editorial.heroWide });
+  } = getImageProps({ ...common, ...imageOf(editorial.heroWide) });
   const {
     props: { srcSet: tall, ...rest },
-  } = getImageProps({ ...common, ...editorial.heroTall });
+  } = getImageProps({ ...common, ...imageOf(editorial.heroTall) });
   return (
     <picture>
       <source media="(min-width: 768px)" srcSet={wide} />
       <img
         {...rest}
         srcSet={tall}
-        alt={editorial.heroWide.alt}
+        alt={editorial.heroWide.alt[lang]}
+        fetchPriority="high"
         className="hero-img absolute inset-0 size-full object-cover object-[50%_100%] md:object-[50%_80%]"
       />
     </picture>
@@ -46,14 +47,41 @@ export default async function HomePage() {
   const piecesBy = (d: string) => newIn.filter((p) => p.designer === d).length;
   const topDesigners = [...facets.designers].sort((a, b) => piecesBy(b) - piecesBy(a) || a.localeCompare(b)).slice(0, 8);
 
+  // Who the site belongs to, for Google (brand name, logo, Instagram) and the site itself.
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": `${site.url}/#org`,
+        name: site.name,
+        url: site.url,
+        logo: `${site.url}/icon.png`,
+        sameAs: [site.instagram],
+      },
+      {
+        "@type": "WebSite",
+        "@id": `${site.url}/#website`,
+        name: site.name,
+        url: `${site.url}${localePath(lang)}`,
+        inLanguage: lang === "es" ? "es-MX" : "en-US",
+        publisher: { "@id": `${site.url}/#org` },
+      },
+    ],
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }}
+      />
 
       {/* 1 · Hero — Aram's own photoshoot (editorial.heroWide / heroTall) */}
       <section
         id="hero"
         className="relative isolate -mt-[var(--header-h)] flex h-[100svh] max-h-[1000px] min-h-[640px] items-start justify-center overflow-hidden bg-onyx text-marfil">
-        <HeroPicture />
+        <HeroPicture lang={lang} />
         {/* Brand Lab treatment: onyx veil, darkest where the type sits, velvet glow below */}
         <div
           aria-hidden
@@ -127,14 +155,14 @@ export default async function HomePage() {
         </section>
       )}
 
-      {/* 3 · The current Edit — dark velvet band */}
+      {/* 3 · The current Edit — dark onyx band */}
       {edit && (
         <section className="mt-24 bg-onyx text-cream md:mt-36">
           <div className="grid md:grid-cols-2">
             <div data-reveal="image" className="relative aspect-[4/3] overflow-hidden md:aspect-auto md:min-h-[640px]">
               <Image
-                src={editorial.velvet.src}
-                alt={editorial.velvet.alt}
+                src={editorial.editBand.src}
+                alt={editorial.editBand.alt[lang]}
                 fill
                 sizes="(min-width: 768px) 50vw, 100vw"
                 className="object-cover"
@@ -273,7 +301,7 @@ export default async function HomePage() {
         <div data-reveal="image" className="relative aspect-[4/5] overflow-hidden bg-sand">
           <Image
             src={editorial.aram.src}
-            alt={editorial.aram.alt}
+            alt={editorial.aram.alt[lang]}
             fill
             sizes="(min-width: 768px) 50vw, 100vw"
             className="object-cover"

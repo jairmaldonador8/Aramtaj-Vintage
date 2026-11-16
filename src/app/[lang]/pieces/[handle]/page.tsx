@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
+import { TrackPieceView } from "@/components/analytics";
 import { PieceGrid } from "@/components/piece-card";
 import { PieceImage } from "@/components/piece-image";
 import { Price, PriceNote } from "@/components/price";
@@ -90,9 +91,13 @@ function Details({ piece, lang, t }: { piece: Piece; lang: Lang; t: Dict }) {
         // Hide unfilled metafields
         .filter(([, v]) => v && v.trim().toUpperCase() !== "TODO")
         .map(([label, value], i) => (
-          <div key={label} className="grid grid-cols-[2.25rem_7.5rem_1fr] items-baseline border-t border-line py-4">
-            <span className="ordinal">{String(i + 1).padStart(2, "0")}</span>
-            <dt className="text-[11px] tracking-[0.16em] text-muted uppercase">{label}</dt>
+          <div key={label} className="grid grid-cols-[9.75rem_1fr] items-baseline border-t border-line py-4">
+            <dt className="flex items-baseline">
+              <span aria-hidden className="ordinal w-9 shrink-0">
+                {String(i + 1).padStart(2, "0")}
+              </span>
+              <span className="text-[11px] tracking-[0.16em] text-muted uppercase">{label}</span>
+            </dt>
             <dd className="text-[15px]">{value}</dd>
           </div>
         ))}
@@ -111,9 +116,19 @@ async function PieceContent(props: PageProps<"/[lang]/pieces/[handle]">) {
     ? (await listPieces({ designer: piece.designer }, lang)).filter((p) => p.handle !== piece.handle).slice(0, 4)
     : [];
   const crumb = "inline-flex min-h-10 items-center hover:text-ink";
+  // Analytics always gets the English title, so one piece is one item in GA4/Meta in both languages.
+  const titleEn = lang === "en" ? piece.title : ((await getPiece(handle, "en"))?.title ?? piece.title);
 
   return (
     <>
+      <TrackPieceView
+        id={piece.id}
+        handle={piece.handle}
+        title={titleEn}
+        designer={piece.designer}
+        category={piece.category}
+        price={piece.price?.amount ?? null}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(productJsonLd(piece, lang)).replace(/</g, "\\u003c") }}
@@ -156,9 +171,7 @@ async function PieceContent(props: PageProps<"/[lang]/pieces/[handle]">) {
                 {t.piece.oneOfOne} · {t.status[piece.saleStatus]}
               </span>
               {piece.saleStatus !== "sold" && (
-                <span className="text-muted">
-                  <CurrencySwitcher />
-                </span>
+                <CurrencySwitcher />
               )}
             </div>
           </div>

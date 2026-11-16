@@ -19,11 +19,14 @@ export function PurchaseAction({
   title,
   status,
   id,
+  location = "piece",
 }: {
   handle: string;
   title: string;
   status: SaleStatus;
   id?: string;
+  /** Where the button sits, for the whatsapp_click event ("piece", "piece_sticky"). */
+  location?: string;
 }) {
   const { lang, t } = useI18n();
 
@@ -60,7 +63,7 @@ export function PurchaseAction({
       href={whatsappLink(t.whatsapp.piece(title, url))}
       target="_blank"
       rel="noreferrer"
-      onClick={() => track("whatsapp_click", { location: "piece", piece: handle })}
+      onClick={() => track("whatsapp_click", { location, piece: handle })}
       className="btn-primary w-full"
     >
       <WhatsAppIcon className="size-4" />
@@ -109,7 +112,7 @@ export function StickyInquiry({
         <span className="piece-name truncate text-[20px]">{label}</span>
         <Price price={price} className="shrink-0 text-[14px]" />
       </div>
-      <PurchaseAction handle={handle} title={title} status="available" />
+      <PurchaseAction handle={handle} title={title} status="available" location="piece_sticky" />
     </div>
   );
 }

@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Cormorant_Garamond, Jost } from "next/font/google";
+import { Analytics } from "@/components/analytics";
 import { PageTransition } from "@/components/page-transition";
 import { Providers } from "@/components/providers";
 import { RevealObserver } from "@/components/reveal-observer";
@@ -47,6 +48,8 @@ export async function generateMetadata(): Promise<Metadata> {
     description: t.meta.description,
     alternates: alternatesFor(lang, "/"),
     openGraph: { siteName: site.name, type: "website", locale: INTL_LOCALE[lang].replace("-", "_") },
+    // Search Console: HTML-tag verification code (only the content value), if that method is used.
+    verification: process.env.GOOGLE_SITE_VERIFICATION ? { google: process.env.GOOGLE_SITE_VERIFICATION } : undefined,
   };
 }
 
@@ -69,6 +72,7 @@ export default async function RootLayout({ children }: LayoutProps<"/[lang]">) {
           <WhatsAppFloat />
           <RevealObserver />
           <PageTransition />
+          <Analytics />
         </Providers>
       </body>
     </html>

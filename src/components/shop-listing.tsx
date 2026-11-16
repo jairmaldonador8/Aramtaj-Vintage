@@ -44,7 +44,7 @@ export async function ShopListing({
         {t.shop.count(pieces.length)}
       </p>
       {pieces.length > 0 ? (
-        <PieceGrid pieces={pieces} priorityCount={4} />
+        <PieceGrid pieces={pieces} priorityCount={4} headingLevel={2} />
       ) : (
         <p className="py-20 text-center accent text-2xl text-muted">
           {t.shop.empty}

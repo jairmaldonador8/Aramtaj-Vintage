@@ -5,8 +5,9 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { useI18n } from "@/components/providers";
 import { CurrencySwitcher, LocaleSwitcher } from "@/components/switchers";
+import { WhatsAppLink } from "@/components/whatsapp-link";
 import { localePath } from "@/lib/i18n";
-import { navItems, site, whatsappLink } from "@/lib/site";
+import { navItems, whatsappLink } from "@/lib/site";
 
 export function MobileNav({ showArchive }: { showArchive: boolean }) {
   const { lang, t } = useI18n();
@@ -81,15 +82,9 @@ export function MobileNav({ showArchive }: { showArchive: boolean }) {
         </div>
         <div className="mt-auto pt-10">
           <p className="eyebrow">{t.nav.askAram}</p>
-          <a
-            href={whatsappLink(t.whatsapp.general)}
-            target="_blank"
-            rel="noreferrer"
-            className="btn-primary mt-4 w-full"
-            hidden={!site.whatsappNumber}
-          >
+          <WhatsAppLink href={whatsappLink(t.whatsapp.general)} location="menu" className="btn-primary mt-4 w-full">
             {t.nav.messageWhatsApp}
-          </a>
+          </WhatsAppLink>
         </div>
       </nav>
     </div>

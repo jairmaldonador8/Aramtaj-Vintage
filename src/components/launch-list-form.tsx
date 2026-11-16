@@ -4,6 +4,7 @@ import { useActionState, useEffect } from "react";
 import { joinLaunchList, type LaunchListState } from "@/app/actions/launch-list";
 import { useI18n } from "@/components/providers";
 import { WhatsAppIcon } from "@/components/whatsapp-float";
+import { WhatsAppLink } from "@/components/whatsapp-link";
 import { track } from "@/lib/analytics";
 
 export function LaunchListForm({ whatsappHref, source }: { whatsappHref: string; source: string }) {
@@ -51,15 +52,14 @@ export function LaunchListForm({ whatsappHref, source }: { whatsappHref: string;
       <p id={`launch-msg-${source}`} aria-live="polite" className="mt-3 min-h-5 text-xs text-arena">
         {state.status === "error" ? messages[state.reason] : ""}
       </p>
-      <a
+      <WhatsAppLink
         href={whatsappHref}
-        target="_blank"
-        rel="noreferrer"
-        className="mt-2 inline-flex items-center gap-2 text-xs tracking-[0.14em] text-cream/70 uppercase hover:text-arena"
+        location={`launch_list_${source}`}
+        className="mt-2 inline-flex min-h-10 items-center gap-2 text-xs tracking-[0.14em] text-cream/70 uppercase hover:text-arena"
       >
         <WhatsAppIcon className="size-3.5" />
         {t.launch.orWhatsApp}
-      </a>
+      </WhatsAppLink>
     </div>
   );
 }

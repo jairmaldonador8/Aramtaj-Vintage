@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { alternatesFor, getI18n } from "@/lib/locale-server";
-import { site, whatsappLink } from "@/lib/site";
+import { WhatsAppLink } from "@/components/whatsapp-link";
+import { whatsappLink } from "@/lib/site";
 
 export async function generateMetadata(): Promise<Metadata> {
   const { lang, t } = await getI18n();
@@ -35,10 +36,10 @@ export default async function HelpPage() {
             <div>
               <h2 className="display-sm">{s.title}</h2>
               <p className="mt-3 max-w-2xl leading-relaxed text-ink/80">{s.body}</p>
-              {s.cta && site.whatsappNumber && (
-                <a href={whatsappLink(t.whatsapp.question)} target="_blank" rel="noreferrer" className="btn-primary mt-6 w-full sm:w-auto">
+              {s.cta && (
+                <WhatsAppLink href={whatsappLink(t.whatsapp.question)} location="help" className="btn-primary mt-6 w-full sm:w-auto">
                   {h.message}
-                </a>
+                </WhatsAppLink>
               )}
             </div>
           </section>

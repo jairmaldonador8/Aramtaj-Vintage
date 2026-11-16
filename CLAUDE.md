@@ -124,6 +124,18 @@ Title/meta por pieza y colección, alt text, JSON-LD Product con disponibilidad 
 - **SEO:** `alternatesFor()` pone canonical + `hreflang` (en-US, es-MX, x-default → en); el sitemap lista las dos versiones de cada página.
 - **Moneda:** el precio real es **USD** ("$185 USD") y es lo único que cobra Aram. El selector USD/MXN (header en desktop, menú móvil y ficha) muestra un **aproximado en pesos** ("≈ $3,250 MXN", redondeado a 10) con nota de que Aram confirma el precio final por WhatsApp. Tipo de cambio: Frankfurter (BCE), cacheado un día (`src/lib/rates.ts`); respaldo `USD_MXN_RATE`; sin tipo de cambio el selector se oculta. La elección se guarda en `localStorage`. En el paso 2 el checkout sigue en USD.
 
+### 9b. Medición y SEO técnico (nov 2026)
+
+- **GA4 y Meta Pixel:** `src/components/analytics.tsx` carga cada script solo si existe su ID (`NEXT_PUBLIC_GA4_ID`, `NEXT_PUBLIC_META_PIXEL_ID`); sin IDs no se carga nada. Eventos (`src/lib/analytics.ts`):
+  - `whatsapp_click` con `location` (`piece`, `piece_sticky`, `piece_sold`, `floating_button`, `menu`, `help`, `launch_list_<source>`) y `piece` (handle). En el Pixel también cuenta como `Contact`.
+  - `launch_list_signup` con `source`. En el Pixel también cuenta como `Lead`.
+  - `view_item` (GA4) / `ViewContent` (Pixel) en cada ficha: id = SKU, título en inglés en los dos idiomas, precio en USD.
+  - Page views: GA4 los cuenta solo con la medición mejorada (cambios en el historial del navegador); el Pixel recibe `PageView` en cada cambio de ruta.
+  - En GA4 hay que marcar `whatsapp_click` y `launch_list_signup` como eventos clave.
+- **Search Console:** verificación por DNS (registro TXT en Shopify, con Jair) o etiqueta HTML con `GOOGLE_SITE_VERIFICATION`. Se envía `/sitemap.xml`.
+- **Al compartir:** `src/app/[lang]/opengraph-image.png` (logo) en todas las páginas; cada pieza usa su foto. JSON-LD `Organization` + `WebSite` en la home y `Product` en cada pieza.
+- **Lighthouse móvil (nov 2026, build local):** Accesibilidad, Buenas prácticas y SEO en 100 en home, tienda, ficha, diseñadores y About; Rendimiento 80–99 (simulado en 4G lento). Las primeras 4 tarjetas del Shop y del Archive cargan con prioridad y sin animación de entrada; las fotos principales llevan `fetchPriority="high"`.
+
 ## 10. Pendientes (no inventar: preguntar o dejar TODO)
 
 - [ ] Acceso de colaborador a Shopify y prueba del token en su plan
@@ -138,8 +150,11 @@ Title/meta por pieza y colección, alt text, JSON-LD Product con disponibilidad 
 - [ ] ¿Correo en el dominio? (antes de mover DNS)
 - [ ] Textos de envíos, cuidado y devoluciones (About ya tiene borrador con sus palabras, ver §10a)
 - [ ] Catálogo en Instagram/Facebook/TikTok (no construir todavía)
+- [ ] IDs de GA4 y Meta Pixel (cuentas a nombre de Aram; se ponen como variables en Vercel)
+- [ ] Verificar Search Console cuando el dominio apunte a Vercel
+- [ ] Aviso de privacidad: la lista de espera guarda correos y el sitio usará GA4/Pixel. El texto legal lo da Aram (no inventarlo); falta la página y el enlace en el footer
 
-**Imágenes provisionales (nov 2026):** `public/placeholder/` tiene fotos generadas con IA (Higgsfield) para revisar el diseño: en `src/lib/editorial.ts` el hero y la foto de About ya son de Aram; siguen provisionales `velvet` (banda Edit, que solo aparece si hay Edit) y `atelier`. Se reemplazan por las fotos de Aram antes del lanzamiento; no deben salir a producción.
+**Imágenes (nov 2026):** ya no hay imágenes hechas con IA en el proyecto (se borró `public/placeholder/`). Todo lo editorial de `src/lib/editorial.ts` es de Aram: hero, foto de About y la banda "The current Edit" (`edit-band.jpg`, IMG_1062 de su Drive). Los textos alternativos están en inglés y español.
 
 Donde falte contenido real: placeholders neutros y TODO. **No inventar precios, piezas, diseñadores ni textos de la marca.**
 

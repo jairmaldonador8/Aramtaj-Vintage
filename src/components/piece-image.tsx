@@ -33,6 +33,7 @@ export function PieceImage({
         fill
         sizes={sizes}
         priority={priority}
+        fetchPriority={priority ? "high" : undefined}
         className="object-cover transition-transform duration-[1.4s] ease-[var(--ease-lux)] group-hover:scale-[1.04]"
       />
       {hoverImage && (

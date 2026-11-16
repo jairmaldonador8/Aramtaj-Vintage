@@ -8,7 +8,8 @@ import { LOCALE_COOKIE, LOCALES, switchLocaleHref, type Lang } from "@/lib/i18n"
 
 const seg = (active: boolean) =>
   `inline-flex min-h-11 min-w-9 items-center justify-center px-1 text-[11px] font-medium tracking-[0.16em] uppercase transition-colors ${
-    active ? "text-current" : "opacity-50 hover:opacity-100"
+    // Inactive at 70% keeps 4.5:1 contrast on both the cream header and the dark hero.
+    active ? "text-current underline decoration-1 underline-offset-[5px]" : "opacity-70 hover:opacity-100"
   }`;
 
 /** Remembered by proxy.ts for URLs without a locale. */

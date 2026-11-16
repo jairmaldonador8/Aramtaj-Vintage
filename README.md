@@ -18,7 +18,7 @@ cp .env.example .env.local   # en Windows PowerShell: Copy-Item .env.example .en
 npm run dev
 ```
 
-Abre http://localhost:3000. Con `CATALOG_SOURCE=local` el sitio funciona completo sin Shopify, usando `data/products.json`.
+Abre http://localhost:3000 (te manda a `/en` o `/es`). Desde un teléfono en la misma red Wi-Fi usa la dirección "Network" que imprime `npm run dev`. Con `CATALOG_SOURCE=local` el sitio funciona completo sin Shopify, usando `data/products.json`.
 
 Otros comandos: `npm run build` (build de producción), `npm run lint`, `npx tsc --noEmit` (revisión de tipos).
 
@@ -54,19 +54,22 @@ Los componentes **nunca** leen el JSON directo; todo pasa por `src/lib/catalog`.
 
 | Ruta | Qué hay |
 |---|---|
-| `src/app/page.tsx` | **Landing / Home**: Hero (bodegón en terciopelo + firma animada) · New in · The current Edit · Shop by category · Shop by designer · Why Aram Taj · Historia + Instagram · Join the US launch list |
-| `src/app/shop/` | Shop con filtros (diseñador, década, tipo de arete, etc.) y `shop/[category]` |
-| `src/app/pieces/[handle]/` | Ficha de pieza (galería, detalles numerados, botón WhatsApp, JSON-LD Product) |
-| `src/app/archive/` | Piezas vendidas |
-| `src/app/designers/`, `about/`, `help/` | Páginas de diseñadores, About Aram y Help |
+| `src/app/[lang]/` | Todas las páginas, en `/en` y `/es` (ver CLAUDE.md §9a). `src/proxy.ts` redirige las URLs sin idioma |
+| `src/app/[lang]/page.tsx` | **Home**: Hero (fotos de Aram + firma animada) · New in · The current Edit · Shop by category · Shop by designer · Why Aram Taj · Meet Aram + Instagram · Join the US launch list |
+| `src/app/[lang]/shop/` | Shop con filtros (diseñador, década, tipo de arete, etc.) y `shop/[category]` |
+| `src/app/[lang]/pieces/[handle]/` | Ficha de pieza (galería, detalles numerados, botón WhatsApp, JSON-LD Product) |
+| `src/app/[lang]/archive/` | Piezas vendidas |
+| `src/app/[lang]/designers/`, `about/`, `help/` | Páginas de diseñadores, About Aram y Help |
 | `src/app/sitemap.ts`, `robots.ts` | SEO técnico |
 | `src/components/` | UI: header/footer, barra de anuncio, tarjetas de pieza, filtros, `purchase-action`, `whatsapp-float`, animaciones (`signature-mark`, `hero-scroll`, `page-transition`, `reveal-observer`) |
 | `src/lib/catalog/` | Capa de datos: `types.ts` (tipo canónico), `local.ts` (JSON), `shopify.ts` (escrito, sin probar contra la tienda de Aram) |
 | `src/lib/editorial.ts` | Imágenes editoriales (hero, banda Edit, About) |
-| `src/lib/analytics.ts` | Eventos GA4 / Pixel |
+| `src/lib/analytics.ts`, `src/components/analytics.tsx` | GA4 + Meta Pixel (se cargan solo si hay IDs) y eventos |
+| `src/lib/dictionary.ts`, `src/lib/i18n.ts` | Textos en inglés y español, helpers de idioma |
 | `src/app/globals.css` | Design tokens (paleta), escala tipográfica, botones |
-| `data/products.json` | **Productos de muestra** (no reales) |
-| `public/placeholder/` | **Fotos provisionales generadas con IA** — se reemplazan por las de Aram antes de lanzar |
+| `data/products.json` | Catálogo real de Aram (61 piezas, con `translations.es`) · `products-hold.json`: piezas sin publicar |
+| `public/editorial/` | Fotos editoriales de Aram (hero, About, banda Edit) |
+| `public/pieces/` | Fotos de las piezas |
 | `brand/` | Logotipo, isotipo (SVG/PNG/favicons) y dirección de foto |
 
 ---

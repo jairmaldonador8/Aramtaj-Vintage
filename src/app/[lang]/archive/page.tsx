@@ -27,7 +27,7 @@ export default async function ArchivePage() {
         <p className="mt-4 max-w-xl text-muted">{t.archive.body}</p>
         <div className="mt-12">
           {pieces.length > 0 ? (
-            <PieceGrid pieces={pieces} />
+            <PieceGrid pieces={pieces} priorityCount={4} headingLevel={2} />
           ) : (
             <p className="py-20 text-center accent text-2xl text-muted">{t.archive.empty}</p>
           )}

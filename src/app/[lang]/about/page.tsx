@@ -88,9 +88,10 @@ export default async function AboutPage() {
           <div className="relative aspect-[4/5] overflow-hidden bg-sand md:sticky md:top-24 md:self-start">
             <Image
               src={editorial.aram.src}
-              alt={editorial.aram.alt}
+              alt={editorial.aram.alt[lang]}
               fill
               priority
+              fetchPriority="high"
               sizes="(min-width: 768px) 50vw, 100vw"
               className="object-cover"
             />

@@ -1,6 +1,10 @@
-import Link from "next/link";
+"use client";
+
+import { useRouter } from "next/navigation";
+import { useTransition } from "react";
+import { useI18n } from "@/components/providers";
 import type { EarringType } from "@/lib/catalog/types";
-import { EARRING_LABELS } from "@/lib/site";
+import { decadeLabel } from "@/lib/i18n";
 
 type Active = { designer?: string; decade?: string; type?: string };
 
@@ -12,51 +16,48 @@ function hrefWith(base: string, active: Active, key: keyof Active, value?: strin
   return qs ? `${base}?${qs}` : base;
 }
 
-function Group({
+function Select({
   label,
-  base,
-  active,
-  paramKey,
+  value,
   options,
+  onChange,
+  allLabel,
 }: {
   label: string;
-  base: string;
-  active: Active;
-  paramKey: keyof Active;
+  value?: string;
   options: { value: string; label: string }[];
+  onChange: (value?: string) => void;
+  allLabel: string;
 }) {
   // A filter with a single option filters nothing — hide it.
   if (options.length < 2) return null;
-  const current = active[paramKey];
-  const chip = (selected: boolean) =>
-    `inline-flex min-h-9 items-center border px-3 text-xs tracking-[0.06em] transition-colors ${
-      selected ? "border-ink bg-ink text-cream" : "border-line hover:border-ink"
-    }`;
   return (
-    <div>
-      <p className="eyebrow mb-3">{label}</p>
-      <ul className="flex flex-wrap gap-2">
-        <li>
-          <Link href={hrefWith(base, active, paramKey)} className={chip(!current)} scroll={false}>
-            All
-          </Link>
-        </li>
-        {options.map((o) => (
-          <li key={o.value}>
-            <Link
-              href={hrefWith(base, active, paramKey, o.value)}
-              className={chip(current === o.value)}
-              scroll={false}
-            >
+    <label className="block min-w-0 sm:w-56">
+      <span className="eyebrow mb-2 block">{label}</span>
+      <span className="relative block">
+        <select
+          value={value ?? ""}
+          onChange={(e) => onChange(e.target.value || undefined)}
+          className={`w-full cursor-pointer appearance-none rounded-none border-b bg-transparent py-2 pr-7 text-[14px] tracking-[0.03em] outline-none transition-colors focus-visible:border-ink ${
+            value ? "border-ink text-ink" : "border-line text-muted hover:border-ink"
+          }`}
+        >
+          <option value="">{allLabel}</option>
+          {options.map((o) => (
+            <option key={o.value} value={o.value}>
               {o.label}
-            </Link>
-          </li>
-        ))}
-      </ul>
-    </div>
+            </option>
+          ))}
+        </select>
+        <span aria-hidden className="pointer-events-none absolute top-1/2 right-1 -translate-y-1/2 text-[10px] text-muted">
+          ▾
+        </span>
+      </span>
+    </label>
   );
 }
 
+/** Compact filter bar: one dropdown per facet, URL-driven (shareable, server-rendered results). */
 export function ShopFilters({
   base,
   active,
@@ -70,29 +71,49 @@ export function ShopFilters({
   decades: string[];
   earringTypes: EarringType[];
 }) {
+  const { lang, t } = useI18n();
+  const router = useRouter();
+  const [pending, startTransition] = useTransition();
+  const go = (key: keyof Active) => (value?: string) =>
+    startTransition(() => router.push(hrefWith(base, active, key, value), { scroll: false }));
+  const anyActive = Object.values(active).some(Boolean);
+
   return (
-    <div className="grid gap-6 border-b border-line py-6 md:grid-cols-3 md:border-t">
-      <Group
-        label="Designer"
-        base={base}
-        active={active}
-        paramKey="designer"
+    <div
+      className={`grid grid-cols-2 items-end gap-x-6 gap-y-5 border-y border-line py-5 transition-opacity sm:flex sm:flex-wrap sm:gap-x-10 ${
+        pending ? "opacity-60" : ""
+      }`}
+    >
+      <Select
+        label={t.shop.designer}
+        allLabel={t.shop.allOption}
+        value={active.designer}
         options={designers.map((d) => ({ value: d, label: d }))}
+        onChange={go("designer")}
       />
-      <Group
-        label="Decade"
-        base={base}
-        active={active}
-        paramKey="decade"
-        options={decades.map((d) => ({ value: d, label: d }))}
+      <Select
+        label={t.shop.decade}
+        allLabel={t.shop.allOption}
+        value={active.decade}
+        options={decades.map((d) => ({ value: d, label: decadeLabel(d, lang) }))}
+        onChange={go("decade")}
       />
-      <Group
-        label="Earring type"
-        base={base}
-        active={active}
-        paramKey="type"
-        options={earringTypes.map((t) => ({ value: t, label: EARRING_LABELS[t] }))}
+      <Select
+        label={t.shop.earringType}
+        allLabel={t.shop.allOption}
+        value={active.type}
+        options={earringTypes.map((e) => ({ value: e, label: t.earring[e] }))}
+        onChange={go("type")}
       />
+      {anyActive && (
+        <button
+          type="button"
+          onClick={() => startTransition(() => router.push(base, { scroll: false }))}
+          className="link-underline justify-self-start pb-2 text-[11px] tracking-[0.16em] uppercase sm:ml-auto"
+        >
+          {t.shop.clear}
+        </button>
+      )}
     </div>
   );
 }

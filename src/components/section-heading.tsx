@@ -43,7 +43,7 @@ export function NumberedList({ items }: { items: { title: string; body: string }
           key={item.title}
           data-reveal
           style={{ ["--i" as string]: i }}
-          className="grid grid-cols-[2.75rem_1fr] border-t border-line py-7"
+          className="grid grid-cols-[2.75rem_minmax(0,1fr)] border-t border-line py-7"
         >
           <span className="ordinal pt-1">{pad(i + 1)}</span>
           <div>

@@ -1,29 +1,32 @@
 import Link from "next/link";
 import { IsotipoMark, Logo } from "@/components/brand";
-import { NAV, site } from "@/lib/site";
+import { localePath } from "@/lib/i18n";
+import { getI18n } from "@/lib/locale-server";
+import { navItems, site } from "@/lib/site";
 
-export function SiteFooter() {
+export async function SiteFooter({ showArchive }: { showArchive: boolean }) {
+  const { lang, t } = await getI18n();
   return (
     <footer className="mt-28 bg-onyx text-cream">
       <div className="container-site grid gap-14 py-20 md:grid-cols-[1.4fr_1fr_1fr]">
         <div className="max-w-sm">
           <Logo height={64} className="h-14 w-auto" />
-          <p className="mt-6 text-sm leading-relaxed text-cream/60">{site.description}</p>
+          <p className="mt-6 text-sm leading-relaxed text-cream/60">{t.meta.description}</p>
         </div>
         <nav aria-label="Footer">
-          <p className="eyebrow text-arena">Explore</p>
+          <p className="eyebrow text-arena">{t.footer.explore}</p>
           <ul className="mt-5 divide-y divide-cream/10 border-y border-cream/10 text-sm">
-            {NAV.map((item) => (
-              <li key={item.href}>
-                <Link href={item.href} className="block py-3 text-cream/80 hover:text-cream">
-                  {item.label}
+            {navItems(showArchive).map((item) => (
+              <li key={item.path}>
+                <Link href={localePath(lang, item.path)} className="block py-3 text-cream/80 hover:text-cream">
+                  {t.nav[item.key]}
                 </Link>
               </li>
             ))}
           </ul>
         </nav>
         <div>
-          <p className="eyebrow text-arena">Contact</p>
+          <p className="eyebrow text-arena">{t.footer.contact}</p>
           <ul className="mt-5 divide-y divide-cream/10 border-y border-cream/10 text-sm">
             <li>
               <a href={site.instagram} className="block py-3 text-cream/80 hover:text-cream" target="_blank" rel="noreferrer">

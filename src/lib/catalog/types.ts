@@ -17,7 +17,7 @@ export type EarringType = "clip" | "pierced";
 
 export interface Money {
   amount: number;
-  /** ISO 4217. TODO: confirm MXN vs USD for the Mexico phase. */
+  /** ISO 4217. USD in every phase (CLAUDE.md §10). */
   currencyCode: string;
 }
 
@@ -57,7 +57,14 @@ export interface Piece {
 
   /** True for placeholder data that must never ship to production. */
   isSample?: boolean;
+
+  /** Spanish copy (nov 2026). Missing fields fall back to English. */
+  translations?: { es?: PieceTranslation };
 }
+
+export type PieceTranslation = Partial<
+  Pick<Piece, "title" | "descriptionHtml" | "materials" | "condition" | "origin" | "measurements" | "clasp">
+>;
 
 export interface CatalogFilters {
   category?: Category;

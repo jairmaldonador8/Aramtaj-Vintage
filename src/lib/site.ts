@@ -1,4 +1,5 @@
-import type { Category, EarringType, Money, SaleStatus } from "@/lib/catalog/types";
+import type { Category } from "@/lib/catalog/types";
+import type { Dict } from "@/lib/dictionary";
 
 export const site = {
   name: "Aram Taj Vintage",
@@ -8,49 +9,23 @@ export const site = {
     (process.env.NEXT_PUBLIC_VERCEL_PROJECT_PRODUCTION_URL
       ? `https://${process.env.NEXT_PUBLIC_VERCEL_PROJECT_PRODUCTION_URL}`
       : "http://localhost:3000"),
-  description:
-    "Signed vintage costume jewelry from the 1960s to the 1990s, handpicked across Europe. Every piece is one of one.",
-  instagram: "https://www.instagram.com/", // TODO: Aram's Instagram handle
+  instagram: "https://www.instagram.com/vintagebijouxbyaramtaj/",
   whatsappNumber: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "",
-};
-
-export const CATEGORY_LABELS: Record<Category, string> = {
-  necklaces: "Necklaces",
-  earrings: "Earrings",
-  bracelets: "Bracelets",
-  rings: "Rings",
-  brooches: "Brooches",
 };
 
 export const CATEGORY_ORDER: Category[] = ["necklaces", "earrings", "bracelets", "rings", "brooches"];
 
-export const EARRING_LABELS: Record<EarringType, string> = {
-  clip: "Clip-on",
-  pierced: "Pierced",
-};
+/** Paths without locale; labels come from the dictionary (t.nav[key]). */
+export const NAV: { path: string; key: keyof Dict["nav"] }[] = [
+  { path: "/shop", key: "shop" },
+  { path: "/designers", key: "designers" },
+  { path: "/archive", key: "archive" },
+  { path: "/about", key: "about" },
+  { path: "/help", key: "help" },
+];
 
-export const STATUS_LABELS: Record<SaleStatus, string> = {
-  available: "Available",
-  reserved: "Reserved",
-  sold: "Sold",
-};
-
-export const NAV = [
-  { href: "/shop", label: "Shop" },
-  { href: "/designers", label: "Designers" },
-  { href: "/archive", label: "Archive" },
-  { href: "/about", label: "About Aram" },
-  { href: "/help", label: "Help" },
-] as const;
-
-export function formatPrice(price: Money | null): string {
-  if (!price) return "Price on request";
-  return new Intl.NumberFormat("en-US", {
-    style: "currency",
-    currency: price.currencyCode,
-    maximumFractionDigits: 0,
-  }).format(price.amount);
-}
+/** Main navigation, hiding the Archive until something has sold. */
+export const navItems = (showArchive: boolean) => NAV.filter((n) => showArchive || n.path !== "/archive");
 
 export function slugify(value: string): string {
   return value

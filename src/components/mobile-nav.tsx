@@ -3,9 +3,13 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import { NAV, site, whatsappLink } from "@/lib/site";
+import { useI18n } from "@/components/providers";
+import { CurrencySwitcher, LocaleSwitcher } from "@/components/switchers";
+import { localePath } from "@/lib/i18n";
+import { navItems, site, whatsappLink } from "@/lib/site";
 
-export function MobileNav() {
+export function MobileNav({ showArchive }: { showArchive: boolean }) {
+  const { lang, t } = useI18n();
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
 
@@ -34,7 +38,7 @@ export function MobileNav() {
         onClick={() => setOpen((v) => !v)}
         aria-expanded={open}
         aria-controls="mobile-menu"
-        aria-label={open ? "Close menu" : "Open menu"}
+        aria-label={open ? t.nav.closeMenu : t.nav.openMenu}
         className="-ml-2 flex size-11 flex-col items-start justify-center gap-[7px] pl-2"
       >
         <span
@@ -54,9 +58,9 @@ export function MobileNav() {
         }`}
       >
         <ul className="border-b border-line">
-          {NAV.map((item, i) => (
+          {navItems(showArchive).map((item, i) => (
             <li
-              key={item.href}
+              key={item.path}
               className="border-t border-line transition-[opacity,transform] duration-700 ease-[var(--ease-lux)]"
               style={{
                 transitionDelay: open ? `${80 + i * 60}ms` : "0ms",
@@ -64,23 +68,27 @@ export function MobileNav() {
                 transform: open ? "none" : "translateY(12px)",
               }}
             >
-              <Link href={item.href} className="flex items-baseline gap-4 py-5">
+              <Link href={localePath(lang, item.path)} className="flex items-baseline gap-4 py-5">
                 <span className="ordinal">{String(i + 1).padStart(2, "0")}</span>
-                <span className="display text-[34px] font-light">{item.label}</span>
+                <span className="display text-[34px] font-light">{t.nav[item.key]}</span>
               </Link>
             </li>
           ))}
         </ul>
+        <div className="mt-8 flex items-center justify-between border-b border-line pb-4">
+          <LocaleSwitcher />
+          <CurrencySwitcher />
+        </div>
         <div className="mt-auto pt-10">
-          <p className="eyebrow">Ask Aram</p>
+          <p className="eyebrow">{t.nav.askAram}</p>
           <a
-            href={whatsappLink("Hi Aram! I have a question about your vintage pieces.")}
+            href={whatsappLink(t.whatsapp.general)}
             target="_blank"
             rel="noreferrer"
             className="btn-primary mt-4 w-full"
             hidden={!site.whatsappNumber}
           >
-            Message on WhatsApp
+            {t.nav.messageWhatsApp}
           </a>
         </div>
       </nav>

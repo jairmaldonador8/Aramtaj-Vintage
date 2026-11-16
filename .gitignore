@@ -43,3 +43,7 @@ next-env.d.ts
 
 .vercel
 .env*
+!.env.example
+
+# local launch-list sign-ups (dev only)
+.launch-list.local.jsonl

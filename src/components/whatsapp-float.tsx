@@ -1,18 +1,21 @@
 "use client";
 
 import { usePathname } from "next/navigation";
+import { useI18n } from "@/components/providers";
 import { track } from "@/lib/analytics";
+import { stripLocale } from "@/lib/i18n";
 import { site, whatsappLink } from "@/lib/site";
 
 export function WhatsAppFloat() {
+  const { t } = useI18n();
   // Piece pages have their own sticky inquiry bar on phones.
-  const onPiece = usePathname().startsWith("/pieces/");
+  const onPiece = stripLocale(usePathname()).startsWith("/pieces/");
   return (
     <a
-      href={whatsappLink("Hi Aram! I have a question about your vintage pieces.")}
+      href={whatsappLink(t.whatsapp.general)}
       target="_blank"
       rel="noreferrer"
-      aria-label="Chat with Aram on WhatsApp"
+      aria-label={t.whatsapp.floatLabel}
       onClick={() => track("whatsapp_click", { location: "floating_button" })}
       className={`fixed right-4 bottom-4 z-40 size-14 ${onPiece ? "hidden md:flex" : "flex"} items-center justify-center rounded-full bg-ink text-cream shadow-lg shadow-ink/20 transition-transform hover:scale-105 md:right-6 md:bottom-6`}
       hidden={!site.whatsappNumber}

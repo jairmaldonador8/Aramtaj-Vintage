@@ -1,24 +1,24 @@
 /**
  * Editorial imagery used outside the catalog (hero, bands, About).
  *
- * Hero follows the Brand Lab “Bodegón” direction (onyx, wine velvet, gold).
+ * Hero (heroWide / heroTall) and About portrait (aram) are Aram's own photos
+ * from her Media folder (nov 2026), exported at web size without EXIF/GPS.
  *
- * TODO: these are AI-generated PLACEHOLDERS (Higgsfield, nov 2026) so the
- * layout can be reviewed. Replace with Aram's own photos/videos from the
- * Media folder before launch — same keys, same aspect ratios.
+ * TODO: velvet (Edit band, only shown when an Edit exists) and atelier are still
+ * AI-generated PLACEHOLDERS (Higgsfield) — replace before launch.
  */
 export const editorial = {
   heroWide: {
-    src: "/placeholder/velvet-hero-wide.jpg",
-    width: 2688,
-    height: 1520,
-    alt: "Vintage gold collar with amber crystals on wine velvet, with an antique hand mirror and jewelry box by candlelight",
+    src: "/editorial/hero-wide.jpg",
+    width: 2560,
+    height: 1440,
+    alt: "Vintage gold-tone and crystal link necklace worn with a white blouse",
   },
   heroTall: {
-    src: "/placeholder/velvet-hero-tall.jpg",
-    width: 1520,
-    height: 2688,
-    alt: "Vintage gold collar with amber crystals on wine velvet by candlelight",
+    src: "/editorial/hero-tall.jpg",
+    width: 1440,
+    height: 2560,
+    alt: "Elizabeth Taylor for Avon cabochon earrings and pendant necklace, worn",
   },
   velvet: {
     src: "/placeholder/velvet.jpg",
@@ -31,5 +31,12 @@ export const editorial = {
     width: 896,
     height: 1120,
     alt: "Hands inspecting a vintage gold-tone pearl brooch with a jeweler’s loupe",
+  },
+  // About page + home "Meet Aram": Aram's own photo (IMG_7056, her Media folder; chosen by Arturo, nov 2026).
+  aram: {
+    src: "/editorial/aram.jpg",
+    width: 1200,
+    height: 1600,
+    alt: "Aram Taj wearing a vintage pearl choker and pearl earrings",
   },
 } as const;

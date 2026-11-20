@@ -3,6 +3,7 @@
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import { SignatureMark } from "@/components/signature-mark";
+import { stripLocale } from "@/lib/i18n";
 
 /** Long enough for the quick signature to close and fill (see .sig-transition). */
 const MIN_VISIBLE_MS = 1150;
@@ -58,11 +59,12 @@ export function PageTransition() {
       if (!a || a.target === "_blank" || a.hasAttribute("download")) return;
       const url = new URL(a.href, window.location.href);
       if (url.origin !== window.location.origin) return;
-      if (url.pathname === window.location.pathname) return; // filters, anchors, same page
+      // filters, anchors, same page — or the same page in the other language
+      if (stripLocale(url.pathname) === stripLocale(window.location.pathname)) return;
       begin();
     };
     const onPop = () => {
-      if (window.location.pathname !== fromPath.current) begin();
+      if (stripLocale(window.location.pathname) !== stripLocale(fromPath.current)) begin();
     };
 
     document.addEventListener("click", onClick, true);

@@ -1,0 +1,260 @@
+{
+  "_note": "Not published. Belt and objects & home from Aram's catalogue: CLAUDE.md defines the shop as signed vintage jewelry (sec. 1) and the nav has no category for them (sec. 7). Kept here until Jair/Aram decide. Photos are in Aram's catalogue Excel (SKU).",
+  "pieces": [
+    {
+      "id": "vb-bt001",
+      "handle": "accessocraft-nyc-gold-tone-stretch-belt-rhinestone-rope-buckle",
+      "title": "Accessocraft NYC Gold-Tone Stretch Belt, Rhinestone Rope Buckle",
+      "descriptionHtml": "<p>A gold-tone stretch belt with a twisted rope-style buckle and a sparkling rhinestone accent.</p>",
+      "price": {
+        "amount": 199,
+        "currencyCode": "USD"
+      },
+      "images": [],
+      "category": "belts",
+      "createdAt": "2026-11-15T00:00:00.000Z",
+      "designer": "Accessocraft NYC",
+      "decade": "1970s–1980s",
+      "origin": "United States",
+      "materials": "Gold-tone, rhinestone accent",
+      "condition": "Excellent vintage condition",
+      "measurements": "71.1 cm size (28 in)",
+      "saleStatus": "available"
+    },
+    {
+      "id": "vb-h001",
+      "handle": "waterford-crystal-obelisk-miniature-desk-clock",
+      "title": "Waterford Crystal Obelisk Miniature Desk Clock",
+      "descriptionHtml": "<p>A miniature obelisk desk clock in Waterford crystal, with its base.</p>",
+      "price": {
+        "amount": 125,
+        "currencyCode": "USD"
+      },
+      "images": [],
+      "category": "home",
+      "createdAt": "2026-11-15T00:00:00.000Z",
+      "designer": "Waterford Crystal",
+      "decade": "2000s",
+      "origin": "Ireland",
+      "materials": "Crystal",
+      "condition": "Excellent; very slight dent on the base, not noticeable",
+      "saleStatus": "available"
+    },
+    {
+      "id": "vb-h002",
+      "handle": "stylebuilt-accessories-filigree-lipstick-holder",
+      "title": "Stylebuilt Accessories Filigree Lipstick Holder",
+      "descriptionHtml": "<p>A filigree dressing-table lipstick holder by Stylebuilt Accessories, New York.</p>",
+      "price": {
+        "amount": 145,
+        "currencyCode": "USD"
+      },
+      "images": [],
+      "category": "home",
+      "createdAt": "2026-11-15T00:00:00.000Z",
+      "designer": "Stylebuilt Accessories",
+      "decade": "1950s–1960s",
+      "origin": "United States",
+      "materials": "Filigree metal",
+      "condition": "Mint condition",
+      "saleStatus": "available"
+    },
+    {
+      "id": "vb-h003",
+      "handle": "reed-barton-silver-plate-shell-footed-dish-with-grapes",
+      "title": "Reed & Barton Silver Plate Shell Footed Dish with Grapes",
+      "descriptionHtml": "<p>A footed silver-plate shell dish with grape and leaf accents. Marked Reed &amp; Barton EPNS 200 with the Saturn date mark.</p>",
+      "price": {
+        "amount": 165,
+        "currencyCode": "USD"
+      },
+      "images": [],
+      "category": "home",
+      "createdAt": "2026-11-15T00:00:00.000Z",
+      "designer": "Reed & Barton",
+      "decade": "1940s",
+      "origin": "United States",
+      "materials": "Silver plate",
+      "condition": "Excellent vintage condition",
+      "measurements": "22.9 cm across; 22.9 cm deep; 5.1 cm tall (9 in; 9 in; 2 in)",
+      "saleStatus": "available"
+    },
+    {
+      "id": "vb-h004",
+      "handle": "international-silver-co-silver-plated-footed-shell-tray-1991",
+      "title": "International Silver Co. Silver-Plated Footed Shell Tray, 1991",
+      "descriptionHtml": "<p>A footed silver-plated shell tray by International Silver Company, dated 1991.</p>",
+      "price": {
+        "amount": 130,
+        "currencyCode": "USD"
+      },
+      "images": [],
+      "category": "home",
+      "createdAt": "2026-11-15T00:00:00.000Z",
+      "designer": "International Silver Company",
+      "decade": "1990s",
+      "origin": "United States",
+      "materials": "Silver plate",
+      "condition": "Excellent vintage condition",
+      "measurements": "21 cm long; 17.8 cm wide (8 1/4 in; 7 in)",
+      "saleStatus": "available"
+    },
+    {
+      "id": "vb-h005",
+      "handle": "wooden-keepsake-jewelry-box",
+      "title": "Wooden Keepsake Jewelry Box",
+      "descriptionHtml": "<p>A small vintage wooden box for keepsakes or jewelry.</p>",
+      "price": {
+        "amount": 95,
+        "currencyCode": "USD"
+      },
+      "images": [],
+      "category": "home",
+      "createdAt": "2026-11-15T00:00:00.000Z",
+      "designer": "",
+      "decade": "",
+      "origin": "Sourced in the UK",
+      "materials": "Wood",
+      "condition": "Great vintage condition",
+      "measurements": "12.7 cm long; 12.7 cm wide (5 in; 5 in)",
+      "saleStatus": "available"
+    },
+    {
+      "id": "vb-h006",
+      "handle": "silver-plated-frog-salt-pepper-cellars-set-of-2-with-spoons",
+      "title": "Silver-Plated Frog Salt & Pepper Cellars, Set of 2 with Spoons",
+      "descriptionHtml": "<p>A novelty reproduction in Victorian style: each frog pulls a snail shell with a small bug on top. Gilt bowls, complete with silver-plated spoons. Price is for both pieces.</p>",
+      "price": {
+        "amount": 450,
+        "currencyCode": "USD"
+      },
+      "images": [],
+      "category": "home",
+      "createdAt": "2026-11-15T00:00:00.000Z",
+      "designer": "",
+      "decade": "",
+      "origin": "Sourced in the UK",
+      "materials": "Silver plate, gilt bowls",
+      "condition": "Excellent vintage condition",
+      "saleStatus": "available"
+    },
+    {
+      "id": "vb-h007",
+      "handle": "french-opaline-glass-tulip-vase",
+      "title": "French Opaline Glass Tulip Vase",
+      "descriptionHtml": "<p>A sculptural single-flower tulip vase with a flared, flower-shaped rim, in two-tone oxblood red and yellow. Mid-century modern; era estimated circa 1950s–1960s.</p>",
+      "price": {
+        "amount": 395,
+        "currencyCode": "USD"
+      },
+      "images": [],
+      "category": "home",
+      "createdAt": "2026-11-15T00:00:00.000Z",
+      "designer": "",
+      "decade": "1950s–1960s",
+      "origin": "Made in France",
+      "materials": "Opaline glass (based on a comparable example)",
+      "condition": "Excellent vintage condition",
+      "measurements": "27.4 cm tall; 18 cm top diameter; 9.9 cm base diameter (10.8 in; 7.1 in; 3.9 in)",
+      "saleStatus": "available"
+    },
+    {
+      "id": "vb-h008",
+      "handle": "suzanne-dauliach-french-studio-pottery-floral-bowl",
+      "title": "Suzanne Dauliach French Studio Pottery Floral Bowl",
+      "descriptionHtml": "<p>A floral bowl in glazed ceramic, French studio pottery from the 1970s.</p>",
+      "price": {
+        "amount": 165,
+        "currencyCode": "USD"
+      },
+      "images": [],
+      "category": "home",
+      "createdAt": "2026-11-15T00:00:00.000Z",
+      "designer": "Suzanne Dauliach",
+      "decade": "1970s",
+      "origin": "Made in France",
+      "materials": "Glazed ceramic",
+      "condition": "Excellent vintage condition",
+      "saleStatus": "available"
+    },
+    {
+      "id": "vb-h009",
+      "handle": "birks-regency-plate-scalloped-divided-serving-dish",
+      "title": "Birks Regency Plate Scalloped Divided Serving Dish",
+      "descriptionHtml": "<p>A scalloped, divided silver-plated serving dish from the Regency Plate collection.</p>",
+      "price": {
+        "amount": 145,
+        "currencyCode": "USD"
+      },
+      "images": [],
+      "category": "home",
+      "createdAt": "2026-11-15T00:00:00.000Z",
+      "designer": "Birks Regency Plate",
+      "decade": "1970s",
+      "origin": "Canada",
+      "materials": "Silver plate",
+      "condition": "Excellent vintage condition",
+      "measurements": "31.8 cm long (12 1/2 in)",
+      "saleStatus": "available"
+    },
+    {
+      "id": "vb-h010",
+      "handle": "borty-vallauris-ceramic-wall-decorations-pair",
+      "title": "Borty Vallauris Ceramic Wall Decorations, Pair",
+      "descriptionHtml": "<p>A pair of hand-painted ceramic wall decorations by Borty of Vallauris, circa 1960s. Both signed Borty Vallauris on the underside.</p>",
+      "price": {
+        "amount": 140,
+        "currencyCode": "USD"
+      },
+      "images": [],
+      "category": "home",
+      "createdAt": "2026-11-15T00:00:00.000Z",
+      "designer": "Borty, Vallauris",
+      "decade": "1960s",
+      "origin": "France",
+      "materials": "Hand-painted glazed ceramic",
+      "condition": "Vintage condition, minor chips on the corners",
+      "measurements": "10.9 cm across (4.3 in)",
+      "saleStatus": "available"
+    },
+    {
+      "id": "vb-h011",
+      "handle": "vallauris-ceramic-ravier-attributed-to-borty",
+      "title": "Vallauris Ceramic Ravier, Attributed to Borty",
+      "descriptionHtml": "<p>A hand-painted ceramic ravier, French mid-century pottery attributed to Borty of Vallauris, circa 1960s.</p>",
+      "price": {
+        "amount": 120,
+        "currencyCode": "USD"
+      },
+      "images": [],
+      "category": "home",
+      "createdAt": "2026-11-15T00:00:00.000Z",
+      "designer": "Borty, Vallauris (attributed)",
+      "decade": "1960s",
+      "origin": "France",
+      "materials": "Hand-painted glazed ceramic",
+      "condition": "Vintage condition, some small chips, not noticeable",
+      "measurements": "23.9 cm long; 10.9 cm wide (9.4 in; 4.3 in)",
+      "saleStatus": "available"
+    },
+    {
+      "id": "vb-h012",
+      "handle": "iridescent-porcelain-swan-trinket-dish-limoges-style",
+      "title": "Iridescent Porcelain Swan Trinket Dish, Limoges Style",
+      "descriptionHtml": "<p>A porcelain trinket dish sculpted as a swan, with an iridescent glaze and a gold-toned interior.</p>",
+      "price": {
+        "amount": 75,
+        "currencyCode": "USD"
+      },
+      "images": [],
+      "category": "home",
+      "createdAt": "2026-11-15T00:00:00.000Z",
+      "designer": "",
+      "decade": "1950s–1960s",
+      "origin": "Sourced in France",
+      "materials": "Glazed porcelain, gold-toned interior",
+      "condition": "Great vintage condition, gentle signs of age",
+      "saleStatus": "available"
+    }
+  ]
+}

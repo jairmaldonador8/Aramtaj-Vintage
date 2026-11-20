@@ -1,9 +1,10 @@
 import { SignatureLoader } from "@/components/signature-mark";
-import { FilterDisclosure } from "@/components/filter-disclosure";
 import { PieceGrid } from "@/components/piece-card";
 import { ShopFilters } from "@/components/shop-filters";
 import { getFacets, listPieces } from "@/lib/catalog";
 import type { Category, EarringType } from "@/lib/catalog/types";
+import { localePath } from "@/lib/i18n";
+import { getI18n } from "@/lib/locale-server";
 
 function first(v: string | string[] | undefined) {
   return Array.isArray(v) ? v[0] : v;
@@ -17,6 +18,7 @@ export async function ShopListing({
   category?: Category;
   searchParams: Promise<Record<string, string | string[] | undefined>>;
 }) {
+  const { lang, t } = await getI18n();
   const sp = await searchParams;
   const active = { designer: first(sp.designer), decade: first(sp.decade), type: first(sp.type) };
   const [pieces, facets] = await Promise.all([
@@ -25,29 +27,27 @@ export async function ShopListing({
       designer: active.designer,
       decade: active.decade,
       earringType: active.type as EarringType | undefined,
-    }),
+    }, lang),
     getFacets(category),
   ]);
 
   return (
     <>
-      <FilterDisclosure activeCount={Object.values(active).filter(Boolean).length}>
       <ShopFilters
-        base={category ? `/shop/${category}` : "/shop"}
+        base={localePath(lang, category ? `/shop/${category}` : "/shop")}
         active={active}
         designers={facets.designers}
         decades={facets.decades}
         earringTypes={facets.earringTypes}
       />
-      </FilterDisclosure>
       <p className="my-6 text-xs tracking-[0.12em] text-muted uppercase">
-        {pieces.length} {pieces.length === 1 ? "piece" : "pieces"}
+        {t.shop.count(pieces.length)}
       </p>
       {pieces.length > 0 ? (
-        <PieceGrid pieces={pieces} priorityCount={4} />
+        <PieceGrid pieces={pieces} priorityCount={4} headingLevel={2} />
       ) : (
         <p className="py-20 text-center accent text-2xl text-muted">
-          Nothing here right now. The next Edit is on its way.
+          {t.shop.empty}
         </p>
       )}
     </>

@@ -1,329 +1,2282 @@
 [
   {
-    "id": "sample-1",
-    "handle": "sample-1-necklaces",
-    "title": "Sample Designer A Necklace (sample)",
-    "descriptionHtml": "<p>TODO: placeholder description. Replace with Aram&rsquo;s real piece story.</p>",
-    "price": null,
+    "id": "vb-e001",
+    "handle": "donald-stannard-modernist-square-clip-earrings-red-black-enamel",
+    "title": "Donald Stannard Modernist Square Clip Earrings, Red & Black Enamel",
+    "descriptionHtml": "<p>Modernist square clip earrings in gold-tone with red and black enamel. Signed DONALD STANNARD in a rectangular cartouche on the backs.</p>",
+    "price": {
+      "amount": 145,
+      "currencyCode": "USD"
+    },
     "images": [
       {
-        "url": "/placeholder/sample-1.jpg",
-        "alt": "Gold-tone bib necklace with faux pearls (sample image)",
-        "width": 896,
-        "height": 1120
-      },
-      {
-        "url": "/placeholder/sample-1-worn.jpg",
-        "alt": "Gold-tone bib necklace with faux pearls, worn (sample image)",
-        "width": 1792,
-        "height": 2240
-      }
-    ],
-    "category": "necklaces",
-    "edit": "sample-edit",
-    "createdAt": "2026-10-01T00:00:00.000Z",
-    "designer": "Sample Designer A",
-    "decade": "1960s",
-    "origin": "TODO",
-    "materials": "TODO",
-    "condition": "TODO",
-    "measurements": "TODO",
-    "clasp": "TODO",
-    "saleStatus": "available",
-    "isSample": true
-  },
-  {
-    "id": "sample-2",
-    "handle": "sample-2-earrings",
-    "title": "Sample Designer B Earrings (sample)",
-    "descriptionHtml": "<p>TODO: placeholder description. Replace with Aram&rsquo;s real piece story.</p>",
-    "price": null,
-    "images": [
-      {
-        "url": "/placeholder/sample-2.jpg",
-        "alt": "Hammered gold-tone knot clip-on earrings (sample image)",
-        "width": 896,
-        "height": 1120
-      },
-      {
-        "url": "/placeholder/sample-2-worn.jpg",
-        "alt": "Hammered gold-tone knot clip-on earrings, worn (sample image)",
-        "width": 1792,
-        "height": 2240
+        "url": "/pieces/vb-e001.jpg",
+        "alt": "Donald Stannard Modernist Square Clip Earrings, Red & Black Enamel",
+        "width": 600,
+        "height": 400
       }
     ],
     "category": "earrings",
-    "edit": "sample-edit",
-    "createdAt": "2026-10-02T00:00:00.000Z",
-    "designer": "Sample Designer B",
-    "decade": "1970s",
-    "origin": "TODO",
-    "materials": "TODO",
-    "condition": "TODO",
-    "measurements": "TODO",
-    "clasp": "TODO",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "Donald Stannard",
+    "decade": "",
+    "origin": "United States",
+    "materials": "Gold-tone mountings, red and black enamel",
+    "condition": "Excellent vintage condition",
+    "measurements": "2.9 × 2.9 cm (1 1/8 in square)",
     "earringType": "clip",
     "saleStatus": "available",
-    "isSample": true
+    "translations": {
+      "es": {
+        "title": "Donald Stannard — Aretes de clip cuadrados modernistas, esmalte rojo y negro",
+        "descriptionHtml": "<p>Aretes de clip cuadrados de estilo modernista en tono dorado con esmalte rojo y negro. Firmados DONALD STANNARD en un cartucho rectangular al reverso.</p>",
+        "materials": "Montaje en tono dorado, esmalte rojo y negro",
+        "condition": "Excelente estado vintage",
+        "origin": "Estados Unidos",
+        "measurements": "2.9 × 2.9 cm (1 1/8 in por lado)"
+      }
+    }
   },
   {
-    "id": "sample-3",
-    "handle": "sample-3-bracelets",
-    "title": "Sample Designer C Bracelet (sample)",
-    "descriptionHtml": "<p>TODO: placeholder description. Replace with Aram&rsquo;s real piece story.</p>",
-    "price": null,
+    "id": "vb-n001",
+    "handle": "givenchy-triple-curb-link-collar-necklace",
+    "title": "Givenchy Triple Curb Link Collar Necklace",
+    "descriptionHtml": "<p>A wide collar necklace of polished gold-plated triple curb links. Signed Givenchy.</p>",
+    "price": {
+      "amount": 400,
+      "currencyCode": "USD"
+    },
     "images": [
       {
-        "url": "/placeholder/sample-3.jpg",
-        "alt": "Gold-tone cuff bracelet with black enamel (sample image)",
-        "width": 896,
-        "height": 1120
-      },
+        "url": "/pieces/vb-n001.jpg",
+        "alt": "Givenchy Triple Curb Link Collar Necklace",
+        "width": 600,
+        "height": 400
+      }
+    ],
+    "category": "necklaces",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "Givenchy",
+    "decade": "1980s",
+    "origin": "France",
+    "materials": "Gold plated",
+    "condition": "Excellent vintage condition",
+    "measurements": "1.9 cm wide; 43.2–50.8 cm long (3/4 in; 17–20 in)",
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "Givenchy — Collar gargantilla de triple eslabón barbado",
+        "descriptionHtml": "<p>Un collar gargantilla ancho de eslabones barbados triples con baño de oro pulido. Firmado Givenchy.</p>",
+        "materials": "Baño de oro",
+        "condition": "Excelente estado vintage",
+        "origin": "Francia",
+        "measurements": "1.9 cm de ancho; 43.2–50.8 cm de largo (3/4 in; 17–20 in)"
+      }
+    }
+  },
+  {
+    "id": "vb-b001",
+    "handle": "swarovski-ribbed-crystal-hinged-bangle",
+    "title": "Swarovski Ribbed Crystal Hinged Bangle",
+    "descriptionHtml": "<p>A ribbed gold-tone hinged bangle with crystals, stamped with the Swarovski swan.</p>",
+    "price": {
+      "amount": 95,
+      "currencyCode": "USD"
+    },
+    "images": [
       {
-        "url": "/placeholder/sample-3-worn.jpg",
-        "alt": "Gold-tone cuff bracelet with black enamel, worn (sample image)",
-        "width": 1792,
-        "height": 2240
+        "url": "/pieces/vb-b001.jpg",
+        "alt": "Swarovski Ribbed Crystal Hinged Bangle",
+        "width": 600,
+        "height": 400
       }
     ],
     "category": "bracelets",
-    "edit": "sample-edit",
-    "createdAt": "2026-10-03T00:00:00.000Z",
-    "designer": "Sample Designer C",
-    "decade": "1980s",
-    "origin": "TODO",
-    "materials": "TODO",
-    "condition": "TODO",
-    "measurements": "TODO",
-    "clasp": "TODO",
-    "saleStatus": "reserved",
-    "isSample": true
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "Swarovski",
+    "decade": "",
+    "origin": "Austria",
+    "materials": "Gold-tone, crystal",
+    "condition": "Excellent vintage condition",
+    "measurements": "5.7 cm inside diameter (2 1/4 in)",
+    "clasp": "Clasp",
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "Swarovski — Brazalete con bisagra acanalado con cristales",
+        "descriptionHtml": "<p>Un brazalete con bisagra acanalado en tono dorado con cristales, con el cisne de Swarovski grabado.</p>",
+        "materials": "Tono dorado, cristal",
+        "condition": "Excelente estado vintage",
+        "origin": "Austria",
+        "clasp": "Broche",
+        "measurements": "5.7 cm de diámetro interior (2 1/4 in)"
+      }
+    }
   },
   {
-    "id": "sample-4",
-    "handle": "sample-4-rings",
-    "title": "Sample Designer A Ring (sample)",
-    "descriptionHtml": "<p>TODO: placeholder description. Replace with Aram&rsquo;s real piece story.</p>",
-    "price": null,
+    "id": "vb-r001",
+    "handle": "ruby-red-square-rhinestone-cocktail-ring",
+    "title": "Ruby Red Square Rhinestone Cocktail Ring",
+    "descriptionHtml": "<p>A gold-plated cocktail ring with a square ruby red rhinestone in a geometric setting.</p>",
+    "price": {
+      "amount": 80,
+      "currencyCode": "USD"
+    },
     "images": [
       {
-        "url": "/placeholder/sample-4.jpg",
-        "alt": "Gold-tone cocktail ring with green glass cabochon (sample image)",
-        "width": 896,
-        "height": 1120
-      },
-      {
-        "url": "/placeholder/sample-4-worn.jpg",
-        "alt": "Gold-tone cocktail ring with green glass cabochon, worn (sample image)",
-        "width": 1792,
-        "height": 2240
+        "url": "/pieces/vb-r001.jpg",
+        "alt": "Ruby Red Square Rhinestone Cocktail Ring",
+        "width": 600,
+        "height": 400
       }
     ],
     "category": "rings",
-    "edit": "sample-edit",
-    "createdAt": "2026-10-04T00:00:00.000Z",
-    "designer": "Sample Designer A",
-    "decade": "1990s",
-    "origin": "TODO",
-    "materials": "TODO",
-    "condition": "TODO",
-    "measurements": "TODO",
-    "clasp": "TODO",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "",
+    "decade": "",
+    "origin": "Sourced in the UK",
+    "materials": "Gold plated, ruby red rhinestone",
+    "condition": "Excellent vintage condition",
+    "measurements": "Size US 5",
     "saleStatus": "available",
-    "isSample": true
+    "translations": {
+      "es": {
+        "title": "Anillo de cóctel con cristal cuadrado rojo rubí",
+        "descriptionHtml": "<p>Un anillo de cóctel con baño de oro y un cristal cuadrado rojo rubí en un montaje geométrico.</p>",
+        "materials": "Baño de oro, cristal rojo rubí",
+        "condition": "Excelente estado vintage",
+        "origin": "Conseguido en el Reino Unido",
+        "measurements": "Talla US 5"
+      }
+    }
   },
   {
-    "id": "sample-5",
-    "handle": "sample-5-brooches",
-    "title": "Sample Designer B Brooch (sample)",
-    "descriptionHtml": "<p>TODO: placeholder description. Replace with Aram&rsquo;s real piece story.</p>",
-    "price": null,
+    "id": "vb-br001",
+    "handle": "ivana-iridescent-faux-pearl-flower-brooch",
+    "title": "Ivana Iridescent Faux Pearl Flower Brooch",
+    "descriptionHtml": "<p>A flower brooch with an iridescent faux pearl and blue and clear rhinestones in gold-tone. Signed IVANA on the back.</p>",
+    "price": {
+      "amount": 155,
+      "currencyCode": "USD"
+    },
     "images": [
       {
-        "url": "/placeholder/sample-5.jpg",
-        "alt": "Gold-tone floral brooch with rhinestones and faux pearl (sample image)",
-        "width": 896,
-        "height": 1120
-      },
-      {
-        "url": "/placeholder/sample-5-worn.jpg",
-        "alt": "Gold-tone floral brooch with rhinestones and faux pearl, worn (sample image)",
-        "width": 1792,
-        "height": 2240
+        "url": "/pieces/vb-br001.jpg",
+        "alt": "Ivana Iridescent Faux Pearl Flower Brooch",
+        "width": 1067,
+        "height": 1600
       }
     ],
     "category": "brooches",
-    "createdAt": "2026-10-05T00:00:00.000Z",
-    "designer": "Sample Designer B",
-    "decade": "1960s",
-    "origin": "TODO",
-    "materials": "TODO",
-    "condition": "TODO",
-    "measurements": "TODO",
-    "clasp": "TODO",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "Ivana",
+    "decade": "",
+    "materials": "Gold-tone, iridescent faux pearl, blue and clear rhinestones",
+    "condition": "Mint condition",
+    "measurements": "9.9 cm long; 4.2 cm wide (3 7/8 in; 1 5/8 in)",
     "saleStatus": "available",
-    "isSample": true
+    "translations": {
+      "es": {
+        "title": "Ivana — Broche de flor con perla de imitación iridiscente",
+        "descriptionHtml": "<p>Un broche de flor con una perla de imitación iridiscente y cristales azules y transparentes en tono dorado. Firmado IVANA al reverso.</p>",
+        "materials": "Tono dorado, perla de imitación iridiscente, cristales azules y transparentes",
+        "condition": "Como nuevo",
+        "measurements": "9.9 cm de largo; 4.2 cm de ancho (3 7/8 in; 1 5/8 in)"
+      }
+    }
   },
   {
-    "id": "sample-6",
-    "handle": "sample-6-earrings",
-    "title": "Sample Designer C Earrings (sample)",
-    "descriptionHtml": "<p>TODO: placeholder description. Replace with Aram&rsquo;s real piece story.</p>",
-    "price": null,
+    "id": "vb-e002",
+    "handle": "trifari-faux-mabe-pearl-florentine-button-clip-earrings",
+    "title": "Trifari Faux Mabe Pearl Florentine Button Clip Earrings",
+    "descriptionHtml": "<p>Button clip earrings with a faux mabe pearl set in Florentine gold-tone. Signed Trifari with the crown over T.</p>",
+    "price": {
+      "amount": 145,
+      "currencyCode": "USD"
+    },
     "images": [
       {
-        "url": "/placeholder/sample-6.jpg",
-        "alt": "Faux pearl dome clip-on earrings with gold-tone rope frame (sample image)",
-        "width": 896,
-        "height": 1120
-      },
-      {
-        "url": "/placeholder/sample-6-worn.jpg",
-        "alt": "Faux pearl dome clip-on earrings with gold-tone rope frame, worn (sample image)",
-        "width": 1792,
-        "height": 2240
+        "url": "/pieces/vb-e002.jpg",
+        "alt": "Trifari Faux Mabe Pearl Florentine Button Clip Earrings",
+        "width": 600,
+        "height": 400
       }
     ],
     "category": "earrings",
-    "createdAt": "2026-10-06T00:00:00.000Z",
-    "designer": "Sample Designer C",
-    "decade": "1970s",
-    "origin": "TODO",
-    "materials": "TODO",
-    "condition": "TODO",
-    "measurements": "TODO",
-    "clasp": "TODO",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "Trifari",
+    "decade": "1960s",
+    "origin": "United States",
+    "materials": "Florentine gold-tone, faux mabe pearl",
+    "condition": "Excellent vintage condition",
+    "measurements": "2.2 cm diameter (7/8 in)",
     "earringType": "clip",
-    "saleStatus": "sold",
-    "isSample": true
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "Trifari — Aretes de botón de clip con perla mabé de imitación y dorado florentino",
+        "descriptionHtml": "<p>Aretes de botón de clip con una perla mabé de imitación montada en tono dorado florentino. Firmados Trifari con la corona sobre la T.</p>",
+        "materials": "Tono dorado florentino, perla mabé de imitación",
+        "condition": "Excelente estado vintage",
+        "origin": "Estados Unidos",
+        "measurements": "2.2 cm de diámetro (7/8 in)"
+      }
+    }
   },
   {
-    "id": "sample-7",
-    "handle": "sample-7-necklaces",
-    "title": "Sample Designer A Necklace (sample)",
-    "descriptionHtml": "<p>TODO: placeholder description. Replace with Aram&rsquo;s real piece story.</p>",
-    "price": null,
+    "id": "vb-n002",
+    "handle": "1980s-pave-leaf-faux-pearl-triple-chain-choker",
+    "title": "1980s Pavé Leaf & Faux Pearl Triple Chain Choker",
+    "descriptionHtml": "<p>A gold-plated triple brick-chain choker with pavé rhinestone leaves and faux pearls, in a European glamour style.</p>",
+    "price": {
+      "amount": 135,
+      "currencyCode": "USD"
+    },
     "images": [
       {
-        "url": "/placeholder/sample-7.jpg",
-        "alt": "Multi-strand gold-tone chain necklace with medallion (sample image)",
-        "width": 896,
-        "height": 1120
+        "url": "/pieces/vb-n002.jpg",
+        "alt": "1980s Pavé Leaf & Faux Pearl Triple Chain Choker",
+        "width": 1600,
+        "height": 1067
       },
       {
-        "url": "/placeholder/sample-7-worn.jpg",
-        "alt": "Multi-strand gold-tone chain necklace with medallion, worn (sample image)",
-        "width": 1792,
-        "height": 2240
+        "url": "/pieces/vb-n002-2.jpg",
+        "alt": "1980s Pavé Leaf & Faux Pearl Triple Chain Choker, worn",
+        "width": 1200,
+        "height": 1600
       }
     ],
     "category": "necklaces",
-    "createdAt": "2026-10-07T00:00:00.000Z",
-    "designer": "Sample Designer A",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "",
     "decade": "1980s",
-    "origin": "TODO",
-    "materials": "TODO",
-    "condition": "TODO",
-    "measurements": "TODO",
-    "clasp": "TODO",
+    "origin": "Sourced in the UK",
+    "materials": "Gold plated, pavé rhinestones, faux pearls",
+    "condition": "Excellent vintage condition",
     "saleStatus": "available",
-    "isSample": true
+    "translations": {
+      "es": {
+        "title": "Gargantilla de triple cadena con hojas pavé y perlas de imitación, años 80",
+        "descriptionHtml": "<p>Una gargantilla de triple cadena tipo ladrillo con baño de oro, hojas de pavé de cristales y perlas de imitación, de estilo glamour europeo.</p>",
+        "materials": "Baño de oro, pavé de cristales, perlas de imitación",
+        "condition": "Excelente estado vintage",
+        "origin": "Conseguido en el Reino Unido"
+      }
+    }
   },
   {
-    "id": "sample-8",
-    "handle": "sample-8-brooches",
-    "title": "Sample Designer B Brooch (sample)",
-    "descriptionHtml": "<p>TODO: placeholder description. Replace with Aram&rsquo;s real piece story.</p>",
-    "price": null,
+    "id": "vb-b002",
+    "handle": "camrose-kross-jacqueline-kennedy-crystal-rope-link-bracelet",
+    "title": "Camrose & Kross Jacqueline Kennedy Crystal Rope Link Bracelet",
+    "descriptionHtml": "<p>A gold-plated rope link bracelet with crystal accents from the Jacqueline Kennedy collection. Signed JBK.</p>",
+    "price": {
+      "amount": 165,
+      "currencyCode": "USD"
+    },
     "images": [
       {
-        "url": "/placeholder/sample-8.jpg",
-        "alt": "Gold-tone bow brooch with red glass stones (sample image)",
-        "width": 896,
-        "height": 1120
-      },
+        "url": "/pieces/vb-b002.jpg",
+        "alt": "Camrose & Kross Jacqueline Kennedy Crystal Rope Link Bracelet",
+        "width": 600,
+        "height": 400
+      }
+    ],
+    "category": "bracelets",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "Camrose & Kross",
+    "decade": "",
+    "origin": "United States",
+    "materials": "Gold plated, crystal accents",
+    "condition": "Excellent vintage condition",
+    "measurements": "17.8–20.3 cm long (7–8 in)",
+    "clasp": "Snap",
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "Camrose & Kross — Pulsera de eslabón de cordón con cristales, colección Jacqueline Kennedy",
+        "descriptionHtml": "<p>Una pulsera de eslabones de cordón con baño de oro y acentos de cristal, de la colección Jacqueline Kennedy. Firmada JBK.</p>",
+        "materials": "Baño de oro, acentos de cristal",
+        "condition": "Excelente estado vintage",
+        "origin": "Estados Unidos",
+        "clasp": "Broche de presión",
+        "measurements": "17.8–20.3 cm de largo (7–8 in)"
+      }
+    }
+  },
+  {
+    "id": "vb-r002",
+    "handle": "blue-square-rhinestone-domed-cocktail-ring",
+    "title": "Blue Square Rhinestone Domed Cocktail Ring",
+    "descriptionHtml": "<p>A domed gold-plated cocktail ring with a square blue rhinestone.</p>",
+    "price": {
+      "amount": 110,
+      "currencyCode": "USD"
+    },
+    "images": [
       {
-        "url": "/placeholder/sample-8-worn.jpg",
-        "alt": "Gold-tone bow brooch with red glass stones, worn (sample image)",
-        "width": 1792,
-        "height": 2240
+        "url": "/pieces/vb-r002.jpg",
+        "alt": "Blue Square Rhinestone Domed Cocktail Ring",
+        "width": 600,
+        "height": 400
+      }
+    ],
+    "category": "rings",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "",
+    "decade": "",
+    "origin": "Sourced in the UK",
+    "materials": "Gold plated, blue rhinestone",
+    "condition": "Excellent vintage condition",
+    "measurements": "Size US 5",
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "Anillo de cóctel abombado con cristal cuadrado azul",
+        "descriptionHtml": "<p>Un anillo de cóctel abombado con baño de oro y un cristal cuadrado azul.</p>",
+        "materials": "Baño de oro, cristal azul",
+        "condition": "Excelente estado vintage",
+        "origin": "Conseguido en el Reino Unido",
+        "measurements": "Talla US 5"
+      }
+    }
+  },
+  {
+    "id": "vb-br002",
+    "handle": "st-john-hammered-gold-tone-pave-brooch",
+    "title": "St. John Hammered Gold-Tone Pavé Brooch",
+    "descriptionHtml": "<p>A heavy, high-quality brooch in gold plate with a hammered finish and diamanté rhinestone pavé. Signed St. John.</p>",
+    "price": {
+      "amount": 199,
+      "currencyCode": "USD"
+    },
+    "images": [
+      {
+        "url": "/pieces/vb-br002.jpg",
+        "alt": "St. John Hammered Gold-Tone Pavé Brooch",
+        "width": 600,
+        "height": 400
       }
     ],
     "category": "brooches",
-    "createdAt": "2026-10-08T00:00:00.000Z",
-    "designer": "Sample Designer B",
-    "decade": "1990s",
-    "origin": "TODO",
-    "materials": "TODO",
-    "condition": "TODO",
-    "measurements": "TODO",
-    "clasp": "TODO",
-    "saleStatus": "sold",
-    "isSample": true
-  },
-  {
-    "id": "sample-9",
-    "handle": "sample-9-necklaces",
-    "title": "Sample Designer C Necklace (sample)",
-    "descriptionHtml": "<p>TODO: placeholder description. Replace with Aram&rsquo;s real piece story.</p>",
-    "price": null,
-    "images": [
-      {
-        "url": "/placeholder/sample-9.jpg",
-        "alt": "Graduated faux pearl strand with gold-tone clasp (sample image)",
-        "width": 896,
-        "height": 1120
-      },
-      {
-        "url": "/placeholder/sample-9-worn.jpg",
-        "alt": "Graduated faux pearl strand with gold-tone clasp, worn (sample image)",
-        "width": 1792,
-        "height": 2240
-      }
-    ],
-    "category": "necklaces",
-    "createdAt": "2026-10-09T00:00:00.000Z",
-    "designer": "Sample Designer C",
-    "decade": "1960s",
-    "origin": "TODO",
-    "materials": "TODO",
-    "condition": "TODO",
-    "measurements": "TODO",
-    "clasp": "TODO",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "St. John",
+    "decade": "1980s",
+    "origin": "United States",
+    "materials": "Gold plated, diamanté rhinestone pavé",
+    "condition": "Excellent vintage condition",
     "saleStatus": "available",
-    "isSample": true
+    "translations": {
+      "es": {
+        "title": "St. John — Broche martillado en tono dorado con pavé",
+        "descriptionHtml": "<p>Un broche pesado y de gran calidad, con baño de oro de acabado martillado y pavé de cristales diamanté. Firmado St. John.</p>",
+        "materials": "Baño de oro, pavé de cristales diamanté",
+        "condition": "Excelente estado vintage",
+        "origin": "Estados Unidos"
+      }
+    }
   },
   {
-    "id": "sample-10",
-    "handle": "sample-10-earrings",
-    "title": "Sample Designer A Earrings (sample)",
-    "descriptionHtml": "<p>TODO: placeholder description. Replace with Aram&rsquo;s real piece story.</p>",
-    "price": null,
+    "id": "vb-e003",
+    "handle": "trifari-faux-pearl-diamante-swirl-clip-earrings",
+    "title": "Trifari Faux Pearl & Diamanté Swirl Clip Earrings",
+    "descriptionHtml": "<p>Round swirl clip earrings in polished gold-tone, with a spray of faux pearls accented by diamanté rhinestones. Signed Trifari with the crown over T.</p>",
+    "price": {
+      "amount": 195,
+      "currencyCode": "USD"
+    },
     "images": [
       {
-        "url": "/placeholder/sample-10.jpg",
-        "alt": "Brushed gold-tone half-moon clip-on earrings (sample image)",
-        "width": 896,
-        "height": 1120
-      },
-      {
-        "url": "/placeholder/sample-10-worn.jpg",
-        "alt": "Brushed gold-tone half-moon clip-on earrings, worn (sample image)",
-        "width": 1792,
-        "height": 2240
+        "url": "/pieces/vb-e003.jpg",
+        "alt": "Trifari Faux Pearl & Diamanté Swirl Clip Earrings",
+        "width": 600,
+        "height": 400
       }
     ],
     "category": "earrings",
-    "createdAt": "2026-10-10T00:00:00.000Z",
-    "designer": "Sample Designer A",
-    "decade": "1970s",
-    "origin": "TODO",
-    "materials": "TODO",
-    "condition": "TODO",
-    "measurements": "TODO",
-    "clasp": "TODO",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "Trifari",
+    "decade": "1950s",
+    "origin": "United States",
+    "materials": "Polished gold-tone, faux pearls, diamanté rhinestones",
+    "condition": "Excellent vintage condition",
+    "measurements": "2.5 cm diameter (1 in)",
     "earringType": "clip",
     "saleStatus": "available",
-    "isSample": true
+    "translations": {
+      "es": {
+        "title": "Trifari — Aretes de clip en espiral con perlas de imitación y diamanté",
+        "descriptionHtml": "<p>Aretes de clip redondos en espiral, en tono dorado pulido, con un ramillete de perlas de imitación y acentos de cristales diamanté. Firmados Trifari con la corona sobre la T.</p>",
+        "materials": "Tono dorado pulido, perlas de imitación, cristales diamanté",
+        "condition": "Excelente estado vintage",
+        "origin": "Estados Unidos",
+        "measurements": "2.5 cm de diámetro (1 in)"
+      }
+    }
+  },
+  {
+    "id": "vb-n003",
+    "handle": "givenchy-logo-matte-double-anchor-link-necklace",
+    "title": "Givenchy Logo Matte Double Anchor Link Necklace",
+    "descriptionHtml": "<p>Two strands of matte anchor links with the Givenchy logo, closing with a toggle. Approx. 77.5 g.</p>",
+    "price": {
+      "amount": 450,
+      "currencyCode": "USD"
+    },
+    "images": [
+      {
+        "url": "/pieces/vb-n003.jpg",
+        "alt": "Givenchy Logo Matte Double Anchor Link Necklace",
+        "width": 600,
+        "height": 400
+      }
+    ],
+    "category": "necklaces",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "Givenchy",
+    "decade": "1970s",
+    "origin": "France",
+    "materials": "Matte gold-tone, approx. 77.5 g",
+    "condition": "Excellent vintage condition",
+    "measurements": "41.9 cm long (16 1/2 in)",
+    "clasp": "Toggle",
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "Givenchy — Collar de doble eslabón ancla mate con logo",
+        "descriptionHtml": "<p>Dos hilos de eslabones ancla mate con el logo de Givenchy y cierre de palanca. Aprox. 77.5 g.</p>",
+        "materials": "Tono dorado mate, aprox. 77.5 g",
+        "condition": "Excelente estado vintage",
+        "origin": "Francia",
+        "clasp": "Cierre de palanca",
+        "measurements": "41.9 cm de largo (16 1/2 in)"
+      }
+    }
+  },
+  {
+    "id": "vb-b003",
+    "handle": "kenneth-jay-lane-starfish-cabochon-rhinestone-hinged-bangle",
+    "title": "Kenneth Jay Lane Starfish Cabochon & Rhinestone Hinged Bangle",
+    "descriptionHtml": "<p>An oval gold-tone hinged bangle with a cream cabochon centre stone ringed by rhinestones in a starfish design. Signed K.J.L.</p>",
+    "price": {
+      "amount": 299,
+      "currencyCode": "USD"
+    },
+    "images": [
+      {
+        "url": "/pieces/vb-b003.jpg",
+        "alt": "Kenneth Jay Lane Starfish Cabochon & Rhinestone Hinged Bangle",
+        "width": 450,
+        "height": 600
+      }
+    ],
+    "category": "bracelets",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "Kenneth Jay Lane",
+    "decade": "1960s",
+    "origin": "United States",
+    "materials": "Gold-tone, cream cabochon, rhinestones",
+    "condition": "Excellent vintage condition",
+    "measurements": "5.7 × 4.4 cm inside; 1.9 cm wide (2¼ × 1¾ in; 3/4 in)",
+    "clasp": "Hinged",
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "Kenneth Jay Lane — Brazalete con bisagra, cabujón y cristales en forma de estrella de mar",
+        "descriptionHtml": "<p>Un brazalete ovalado con bisagra en tono dorado, con un cabujón central color crema rodeado de cristales en forma de estrella de mar. Firmado K.J.L.</p>",
+        "materials": "Tono dorado, cabujón crema, cristales",
+        "condition": "Excelente estado vintage",
+        "origin": "Estados Unidos",
+        "clasp": "Bisagra",
+        "measurements": "5.7 × 4.4 cm interior; 1.9 cm de ancho (2¼ × 1¾ in; 3/4 in)"
+      }
+    }
+  },
+  {
+    "id": "vb-r003",
+    "handle": "multicolor-glass-cabochon-cocktail-ring",
+    "title": "Multicolor Glass Cabochon Cocktail Ring",
+    "descriptionHtml": "<p>A gold-plated cocktail ring set with multicoloured glass cabochons.</p>",
+    "price": {
+      "amount": 90,
+      "currencyCode": "USD"
+    },
+    "images": [
+      {
+        "url": "/pieces/vb-r003.jpg",
+        "alt": "Multicolor Glass Cabochon Cocktail Ring",
+        "width": 600,
+        "height": 400
+      }
+    ],
+    "category": "rings",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "",
+    "decade": "",
+    "origin": "Sourced in the UK",
+    "materials": "Gold plated, multicolour glass cabochons",
+    "condition": "Excellent vintage condition",
+    "measurements": "Size US 4",
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "Anillo de cóctel con cabujones de vidrio multicolor",
+        "descriptionHtml": "<p>Un anillo de cóctel con baño de oro y cabujones de vidrio multicolor.</p>",
+        "materials": "Baño de oro, cabujones de vidrio multicolor",
+        "condition": "Excelente estado vintage",
+        "origin": "Conseguido en el Reino Unido",
+        "measurements": "Talla US 4"
+      }
+    }
+  },
+  {
+    "id": "vb-e004",
+    "handle": "ciner-faux-lapis-cabochon-clip-earrings-with-chain-halo",
+    "title": "Ciner Faux Lapis Cabochon Clip Earrings with Chain Halo",
+    "descriptionHtml": "<p>A deeply domed faux lapis glass cabochon framed by a halo of gold-tone curb-link chain. Signed CINER on the clips.</p>",
+    "price": {
+      "amount": 155,
+      "currencyCode": "USD"
+    },
+    "images": [
+      {
+        "url": "/pieces/vb-e004.jpg",
+        "alt": "Ciner Faux Lapis Cabochon Clip Earrings with Chain Halo",
+        "width": 600,
+        "height": 400
+      }
+    ],
+    "category": "earrings",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "Ciner",
+    "decade": "",
+    "origin": "United States",
+    "materials": "Polished gold-tone, faux lapis glass cabochon",
+    "condition": "Excellent vintage condition",
+    "measurements": "3.5 cm diameter (1 3/8 in)",
+    "earringType": "clip",
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "Ciner — Aretes de clip con cabujón imitación lapislázuli y halo de cadena",
+        "descriptionHtml": "<p>Un cabujón de vidrio que imita lapislázuli, muy abombado, rodeado por un halo de cadena barbada en tono dorado. Firmados CINER en los clips.</p>",
+        "materials": "Tono dorado pulido, cabujón de vidrio imitación lapislázuli",
+        "condition": "Excelente estado vintage",
+        "origin": "Estados Unidos",
+        "measurements": "3.5 cm de diámetro (1 3/8 in)"
+      }
+    }
+  },
+  {
+    "id": "vb-n004",
+    "handle": "mary-mcfadden-for-franklin-mint-faux-pearl-hercules-knot-necklace",
+    "title": "Mary McFadden for Franklin Mint Faux Pearl Hercules Knot Necklace",
+    "descriptionHtml": "<p>Double strand of baroque faux pearls centred with a textured 22k gold-plated Hercules knot and rope. Hallmarked 1988 FM.</p>",
+    "price": {
+      "amount": 250,
+      "currencyCode": "USD"
+    },
+    "images": [
+      {
+        "url": "/pieces/vb-n004.jpg",
+        "alt": "Mary McFadden for Franklin Mint Faux Pearl Hercules Knot Necklace",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "url": "/pieces/vb-n004-2.jpg",
+        "alt": "Mary McFadden for Franklin Mint Faux Pearl Hercules Knot Necklace, another view",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "url": "/pieces/vb-n004-3.jpg",
+        "alt": "Mary McFadden for Franklin Mint Faux Pearl Hercules Knot Necklace, another view",
+        "width": 1200,
+        "height": 1600
+      }
+    ],
+    "category": "necklaces",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "Mary McFadden",
+    "decade": "",
+    "origin": "United States",
+    "materials": "Baroque faux pearls, 22k gold-plated Hercules knot",
+    "condition": "Excellent vintage condition",
+    "measurements": "48.3 cm long (19 in)",
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "Mary McFadden for Franklin Mint — Collar de perlas de imitación con nudo de Hércules",
+        "descriptionHtml": "<p>Doble hilo de perlas barrocas de imitación con un nudo de Hércules texturizado y cordón con baño de oro de 22k al centro. Contraste 1988 FM.</p>",
+        "materials": "Perlas barrocas de imitación, nudo de Hércules con baño de oro de 22k",
+        "condition": "Excelente estado vintage",
+        "origin": "Estados Unidos",
+        "measurements": "48.3 cm de largo (19 in)"
+      }
+    }
+  },
+  {
+    "id": "vb-b004",
+    "handle": "monet-chunky-interlinked-chain-bracelet",
+    "title": "Monet Chunky Interlinked Chain Bracelet",
+    "descriptionHtml": "<p>A chunky gold-tone interlinked chain bracelet. Signed Monet.</p>",
+    "price": {
+      "amount": 95,
+      "currencyCode": "USD"
+    },
+    "images": [
+      {
+        "url": "/pieces/vb-b004.jpg",
+        "alt": "Monet Chunky Interlinked Chain Bracelet",
+        "width": 600,
+        "height": 400
+      }
+    ],
+    "category": "bracelets",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "Monet",
+    "decade": "1980s",
+    "origin": "United States",
+    "materials": "Gold-tone",
+    "condition": "Excellent vintage condition",
+    "measurements": "17.8 cm long (7 in)",
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "Monet — Pulsera de cadena gruesa entrelazada",
+        "descriptionHtml": "<p>Una pulsera de cadena gruesa entrelazada en tono dorado. Firmada Monet.</p>",
+        "materials": "Tono dorado",
+        "condition": "Excelente estado vintage",
+        "origin": "Estados Unidos",
+        "measurements": "17.8 cm de largo (7 in)"
+      }
+    }
+  },
+  {
+    "id": "vb-r004",
+    "handle": "round-rhinestone-filigree-cocktail-ring",
+    "title": "Round Rhinestone Filigree Cocktail Ring",
+    "descriptionHtml": "<p>A cocktail ring with a round rhinestone in a filigree setting.</p>",
+    "price": {
+      "amount": 65,
+      "currencyCode": "USD"
+    },
+    "images": [
+      {
+        "url": "/pieces/vb-r004.jpg",
+        "alt": "Round Rhinestone Filigree Cocktail Ring",
+        "width": 600,
+        "height": 400
+      }
+    ],
+    "category": "rings",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "",
+    "decade": "",
+    "materials": "Rhinestone, filigree setting",
+    "condition": "Excellent vintage condition",
+    "measurements": "Size US 4",
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "Anillo de cóctel de filigrana con cristal redondo",
+        "descriptionHtml": "<p>Un anillo de cóctel con un cristal redondo en un montaje de filigrana.</p>",
+        "materials": "Cristal, montaje de filigrana",
+        "condition": "Excelente estado vintage",
+        "measurements": "Talla US 4"
+      }
+    }
+  },
+  {
+    "id": "vb-e005",
+    "handle": "1980s-textured-gold-tone-statement-earrings-ruby-red-cabochon",
+    "title": "1980s Textured Gold-Tone Statement Earrings, Ruby Red Cabochon",
+    "descriptionHtml": "<p>Bold 1980s statement earrings: a ruby red cabochon in a textured antique gold-tone setting.</p>",
+    "price": {
+      "amount": 85,
+      "currencyCode": "USD"
+    },
+    "images": [
+      {
+        "url": "/pieces/vb-e005.jpg",
+        "alt": "1980s Textured Gold-Tone Statement Earrings, Ruby Red Cabochon",
+        "width": 600,
+        "height": 400
+      }
+    ],
+    "category": "earrings",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "",
+    "decade": "1980s",
+    "origin": "Sourced in the UK",
+    "materials": "Textured antique gold-tone, ruby red cabochon",
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "Aretes statement de los años 80 en dorado texturizado con cabujón rojo rubí",
+        "descriptionHtml": "<p>Aretes statement de los años 80: un cabujón rojo rubí en un montaje dorado envejecido y texturizado.</p>",
+        "materials": "Dorado envejecido texturizado, cabujón rojo rubí",
+        "origin": "Conseguido en el Reino Unido"
+      }
+    }
+  },
+  {
+    "id": "vb-n005",
+    "handle": "napier-panther-link-choker",
+    "title": "Napier Panther Link Choker",
+    "descriptionHtml": "<p>A panther link choker by Napier. Signed on the back of the clasp.</p>",
+    "price": {
+      "amount": 125,
+      "currencyCode": "USD"
+    },
+    "images": [
+      {
+        "url": "/pieces/vb-n005.jpg",
+        "alt": "Napier Panther Link Choker",
+        "width": 600,
+        "height": 400
+      }
+    ],
+    "category": "necklaces",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "Napier",
+    "decade": "1980s",
+    "origin": "United States",
+    "materials": "Gold-tone",
+    "condition": "Excellent vintage condition",
+    "measurements": "40.6 cm long (16 in)",
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "Napier — Gargantilla de eslabón pantera",
+        "descriptionHtml": "<p>Una gargantilla de eslabón pantera de Napier. Firmada al reverso del broche.</p>",
+        "materials": "Tono dorado",
+        "condition": "Excelente estado vintage",
+        "origin": "Estados Unidos",
+        "measurements": "40.6 cm de largo (16 in)"
+      }
+    }
+  },
+  {
+    "id": "vb-b005",
+    "handle": "swarovski-swan-logo-matte-gold-tone-hinged-bangle",
+    "title": "Swarovski Swan Logo Matte Gold-Tone Hinged Bangle",
+    "descriptionHtml": "<p>A matte gold-tone hinged bangle with clear crystal accents and the Swarovski swan logo.</p>",
+    "price": {
+      "amount": 165,
+      "currencyCode": "USD"
+    },
+    "images": [
+      {
+        "url": "/pieces/vb-b005.jpg",
+        "alt": "Swarovski Swan Logo Matte Gold-Tone Hinged Bangle",
+        "width": 600,
+        "height": 400
+      }
+    ],
+    "category": "bracelets",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "Swarovski",
+    "decade": "1990s",
+    "origin": "Austria",
+    "materials": "Matte gold-tone, clear crystals",
+    "condition": "Excellent vintage condition",
+    "measurements": "5.7 cm inside diameter (2 1/4 in)",
+    "clasp": "Hinged, spring-style",
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "Swarovski — Brazalete con bisagra dorado mate con el logo del cisne",
+        "descriptionHtml": "<p>Un brazalete con bisagra en dorado mate, con acentos de cristales transparentes y el logo del cisne de Swarovski.</p>",
+        "materials": "Tono dorado mate, cristales transparentes",
+        "condition": "Excelente estado vintage",
+        "origin": "Austria",
+        "clasp": "Bisagra con resorte",
+        "measurements": "5.7 cm de diámetro interior (2 1/4 in)"
+      }
+    }
+  },
+  {
+    "id": "vb-r005",
+    "handle": "art-deco-style-marquise-cubic-zirconia-ring",
+    "title": "Art Deco-Style Marquise Cubic Zirconia Ring",
+    "descriptionHtml": "<p>An Art Deco-style ring with a large hand-set marquise cubic zirconia, 18K gold electroplated.</p>",
+    "price": {
+      "amount": 65,
+      "currencyCode": "USD"
+    },
+    "images": [
+      {
+        "url": "/pieces/vb-r005.jpg",
+        "alt": "Art Deco-Style Marquise Cubic Zirconia Ring",
+        "width": 600,
+        "height": 400
+      }
+    ],
+    "category": "rings",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "",
+    "decade": "",
+    "materials": "18K gold electroplated, marquise cubic zirconia",
+    "condition": "Excellent vintage condition",
+    "measurements": "Size US 8",
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "Anillo estilo Art Déco con zirconia marquesa",
+        "descriptionHtml": "<p>Un anillo estilo Art Déco con una gran zirconia cúbica corte marquesa engastada a mano, electrochapado en oro de 18K.</p>",
+        "materials": "Electrochapado en oro de 18K, zirconia cúbica marquesa",
+        "condition": "Excelente estado vintage",
+        "measurements": "Talla US 8"
+      }
+    }
+  },
+  {
+    "id": "vb-e006",
+    "handle": "kenneth-jay-lane-green-enamel-crystal-clip-earrings",
+    "title": "Kenneth Jay Lane Green Enamel & Crystal Clip Earrings",
+    "descriptionHtml": "<p>A large faceted green oval stone in peridot green enamel, surrounded by a halo of clear chatons and gold-tone accents. Signed KJL.</p>",
+    "price": {
+      "amount": 185,
+      "currencyCode": "USD"
+    },
+    "images": [
+      {
+        "url": "/pieces/vb-e006.jpg",
+        "alt": "Kenneth Jay Lane Green Enamel & Crystal Clip Earrings",
+        "width": 1200,
+        "height": 1600
+      }
+    ],
+    "category": "earrings",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "Kenneth Jay Lane",
+    "decade": "1980s",
+    "origin": "United States",
+    "materials": "Gold-tone, peridot green enamel, faceted green stone, clear chatons",
+    "condition": "Excellent vintage condition",
+    "earringType": "clip",
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "Kenneth Jay Lane — Aretes de clip con esmalte verde y cristales",
+        "descriptionHtml": "<p>Una gran piedra oval facetada verde en esmalte verde peridoto, rodeada por un halo de chatones transparentes y detalles en tono dorado. Firmados KJL.</p>",
+        "materials": "Tono dorado, esmalte verde peridoto, piedra verde facetada, chatones transparentes",
+        "condition": "Excelente estado vintage",
+        "origin": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "id": "vb-n006",
+    "handle": "1980s-green-enamel-rhinestone-statement-choker",
+    "title": "1980s Green Enamel & Rhinestone Statement Choker",
+    "descriptionHtml": "<p>A sculptural statement choker with green enamel accents and rhinestone detailing.</p>",
+    "price": {
+      "amount": 325,
+      "currencyCode": "USD"
+    },
+    "images": [
+      {
+        "url": "/pieces/vb-n006.jpg",
+        "alt": "1980s Green Enamel & Rhinestone Statement Choker",
+        "width": 450,
+        "height": 600
+      }
+    ],
+    "category": "necklaces",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "",
+    "decade": "1980s",
+    "origin": "Made in England",
+    "materials": "Green enamel, rhinestones",
+    "condition": "Excellent vintage condition",
+    "clasp": "Clasp",
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "Gargantilla statement con esmalte verde y cristales, años 80",
+        "descriptionHtml": "<p>Una gargantilla statement escultórica con detalles de esmalte verde y cristales.</p>",
+        "materials": "Esmalte verde, cristales",
+        "condition": "Excelente estado vintage",
+        "origin": "Hecho en Inglaterra",
+        "clasp": "Broche"
+      }
+    }
+  },
+  {
+    "id": "vb-b006",
+    "handle": "les-bernard-textured-gold-tone-hinged-bangle",
+    "title": "Les Bernard Textured Gold-Tone Hinged Bangle",
+    "descriptionHtml": "<p>A round textured bangle in yellow gold-plated brass with a hinged closure. Signed Les Bernard.</p>",
+    "price": {
+      "amount": 85,
+      "currencyCode": "USD"
+    },
+    "images": [
+      {
+        "url": "/pieces/vb-b006.jpg",
+        "alt": "Les Bernard Textured Gold-Tone Hinged Bangle",
+        "width": 600,
+        "height": 400
+      }
+    ],
+    "category": "bracelets",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "Les Bernard",
+    "decade": "1980s",
+    "origin": "United States",
+    "materials": "Yellow gold-plated brass",
+    "condition": "Excellent vintage condition",
+    "measurements": "7.6 cm diameter (3 in)",
+    "clasp": "Hinged",
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "Les Bernard — Brazalete con bisagra, dorado texturizado",
+        "descriptionHtml": "<p>Un brazalete redondo texturizado en latón con baño de oro amarillo y cierre de bisagra. Firmado Les Bernard.</p>",
+        "materials": "Latón con baño de oro amarillo",
+        "condition": "Excelente estado vintage",
+        "origin": "Estados Unidos",
+        "clasp": "Bisagra",
+        "measurements": "7.6 cm de diámetro (3 in)"
+      }
+    }
+  },
+  {
+    "id": "vb-r006",
+    "handle": "18k-gold-electroplated-rhinestone-ring",
+    "title": "18K Gold Electroplated Rhinestone Ring",
+    "descriptionHtml": "<p>A ring with rhinestone detail, 18K gold electroplated.</p>",
+    "price": {
+      "amount": 70,
+      "currencyCode": "USD"
+    },
+    "images": [
+      {
+        "url": "/pieces/vb-r006.jpg",
+        "alt": "18K Gold Electroplated Rhinestone Ring",
+        "width": 600,
+        "height": 400
+      }
+    ],
+    "category": "rings",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "",
+    "decade": "",
+    "materials": "18K gold electroplated, rhinestone",
+    "condition": "Excellent vintage condition",
+    "measurements": "Size US 9",
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "Anillo electrochapado en oro de 18K con cristal",
+        "descriptionHtml": "<p>Un anillo con detalle de cristal, electrochapado en oro de 18K.</p>",
+        "materials": "Electrochapado en oro de 18K, cristal",
+        "condition": "Excelente estado vintage",
+        "measurements": "Talla US 9"
+      }
+    }
+  },
+  {
+    "id": "vb-e007",
+    "handle": "nolan-miller-lara-camellia-cream-lucite-rhinestone-clip-earrings",
+    "title": "Nolan Miller “Lara Camellia” Cream Lucite & Rhinestone Clip Earrings",
+    "descriptionHtml": "<p>Cream lucite camellia clip earrings with rhinestones, from Nolan Miller’s Glamour Collection.</p>",
+    "price": {
+      "amount": 86,
+      "currencyCode": "USD"
+    },
+    "images": [
+      {
+        "url": "/pieces/vb-e007.jpg",
+        "alt": "Nolan Miller “Lara Camellia” Cream Lucite & Rhinestone Clip Earrings",
+        "width": 600,
+        "height": 400
+      }
+    ],
+    "category": "earrings",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "Nolan Miller",
+    "decade": "1980s",
+    "origin": "United States",
+    "materials": "Cream lucite, rhinestones",
+    "condition": "Excellent vintage condition",
+    "measurements": "2.5 cm high; 2.2 cm wide (1 in; 7/8 in)",
+    "earringType": "clip",
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "Nolan Miller — Aretes de clip “Lara Camellia” de lucita crema y cristales",
+        "descriptionHtml": "<p>Aretes de clip en forma de camelia, de lucita crema con cristales, de la Glamour Collection de Nolan Miller.</p>",
+        "materials": "Lucita crema, cristales",
+        "condition": "Excelente estado vintage",
+        "origin": "Estados Unidos",
+        "measurements": "2.5 cm de alto; 2.2 cm de ancho (1 in; 7/8 in)"
+      }
+    }
+  },
+  {
+    "id": "vb-n007",
+    "handle": "joan-rivers-double-strand-faux-pearl-necklace-emerald-glass-clasp",
+    "title": "Joan Rivers Double Strand Faux Pearl Necklace, Emerald Glass Clasp",
+    "descriptionHtml": "<p>A double strand of faux pearls finished with an ornate gold-tone clasp encrusted with clear rhinestones around a large emerald green glass stone. From the Classic Collection. Signed.</p>",
+    "price": {
+      "amount": 185,
+      "currencyCode": "USD"
+    },
+    "images": [
+      {
+        "url": "/pieces/vb-n007.jpg",
+        "alt": "Joan Rivers Double Strand Faux Pearl Necklace, Emerald Glass Clasp",
+        "width": 1600,
+        "height": 1067
+      }
+    ],
+    "category": "necklaces",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "Joan Rivers",
+    "decade": "1990s",
+    "origin": "United States",
+    "materials": "Faux pearls, gold-tone, clear rhinestones, emerald green glass",
+    "condition": "Mint condition",
+    "clasp": "Statement clasp",
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "Joan Rivers — Collar de doble hilo de perlas de imitación con broche esmeralda",
+        "descriptionHtml": "<p>Un doble hilo de perlas de imitación con un broche ornamentado en tono dorado, incrustado de cristales transparentes alrededor de una gran piedra de vidrio verde esmeralda. De la Classic Collection. Firmado.</p>",
+        "materials": "Perlas de imitación, tono dorado, cristales transparentes, vidrio verde esmeralda",
+        "condition": "Como nuevo",
+        "origin": "Estados Unidos",
+        "clasp": "Broche ornamental"
+      }
+    }
+  },
+  {
+    "id": "vb-b007",
+    "handle": "trifari-gold-tone-rhinestone-bypass-clamper-bracelet",
+    "title": "Trifari Gold-Tone Rhinestone Bypass Clamper Bracelet",
+    "descriptionHtml": "<p>A hinged bypass clamper in gold-tone with rhinestones; opens to fit a larger wrist. Signed Trifari.</p>",
+    "price": {
+      "amount": 85,
+      "currencyCode": "USD"
+    },
+    "images": [
+      {
+        "url": "/pieces/vb-b007.jpg",
+        "alt": "Trifari Gold-Tone Rhinestone Bypass Clamper Bracelet",
+        "width": 600,
+        "height": 400
+      }
+    ],
+    "category": "bracelets",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "Trifari",
+    "decade": "1980s",
+    "origin": "United States",
+    "materials": "Gold-tone, rhinestones",
+    "condition": "Excellent vintage condition",
+    "measurements": "14 cm long (5 1/2 in)",
+    "clasp": "Hinged",
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "Trifari — Brazalete cruzado con bisagra en tono dorado y cristales",
+        "descriptionHtml": "<p>Un brazalete cruzado con bisagra, en tono dorado con cristales; se abre para adaptarse a una muñeca más grande. Firmado Trifari.</p>",
+        "materials": "Tono dorado, cristales",
+        "condition": "Excelente estado vintage",
+        "origin": "Estados Unidos",
+        "clasp": "Bisagra",
+        "measurements": "14 cm de largo (5 1/2 in)"
+      }
+    }
+  },
+  {
+    "id": "vb-e008",
+    "handle": "kenneth-jay-lane-large-blue-rhinestone-clip-earrings",
+    "title": "Kenneth Jay Lane Large Blue Rhinestone Clip Earrings",
+    "descriptionHtml": "<p>Large 1980s clip earrings in plated base metal set with high-quality blue Austrian crystal rhinestones.</p>",
+    "price": {
+      "amount": 155,
+      "currencyCode": "USD"
+    },
+    "images": [
+      {
+        "url": "/pieces/vb-e008.jpg",
+        "alt": "Kenneth Jay Lane Large Blue Rhinestone Clip Earrings",
+        "width": 600,
+        "height": 400
+      }
+    ],
+    "category": "earrings",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "Kenneth Jay Lane",
+    "decade": "1980s",
+    "origin": "United States",
+    "materials": "Plated base metal, Austrian crystal rhinestones",
+    "condition": "Excellent vintage condition",
+    "measurements": "5.1 cm high; 2.5 cm wide (2 in; 1 in)",
+    "earringType": "clip",
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "Kenneth Jay Lane — Aretes de clip grandes con cristales azules",
+        "descriptionHtml": "<p>Aretes de clip grandes de los años 80 en metal bañado, con cristales austriacos azules de alta calidad.</p>",
+        "materials": "Metal base bañado, cristales austriacos",
+        "condition": "Excelente estado vintage",
+        "origin": "Estados Unidos",
+        "measurements": "5.1 cm de alto; 2.5 cm de ancho (2 in; 1 in)"
+      }
+    }
+  },
+  {
+    "id": "vb-n008",
+    "handle": "1980s-pave-ribbed-link-necklace",
+    "title": "1980s Pavé Ribbed Link Necklace",
+    "descriptionHtml": "<p>A ribbed link necklace with pavé detailing.</p>",
+    "price": {
+      "amount": 285,
+      "currencyCode": "USD"
+    },
+    "images": [
+      {
+        "url": "/pieces/vb-n008.jpg",
+        "alt": "1980s Pavé Ribbed Link Necklace",
+        "width": 600,
+        "height": 400
+      }
+    ],
+    "category": "necklaces",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "",
+    "decade": "1980s",
+    "origin": "Sourced in the UK",
+    "materials": "Gold-tone, pavé",
+    "condition": "Excellent vintage condition",
+    "measurements": "47 cm long (18 1/2 in)",
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "Collar de eslabones acanalados con pavé, años 80",
+        "descriptionHtml": "<p>Un collar de eslabones acanalados con detalles de pavé.</p>",
+        "materials": "Tono dorado, pavé",
+        "condition": "Excelente estado vintage",
+        "origin": "Conseguido en el Reino Unido",
+        "measurements": "47 cm de largo (18 1/2 in)"
+      }
+    }
+  },
+  {
+    "id": "vb-b008",
+    "handle": "joan-rivers-classics-brown-black-enamel-hinged-bangles-set",
+    "title": "Joan Rivers Classics Brown & Black Enamel Hinged Bangles, Set",
+    "descriptionHtml": "<p>A set of brown and black enamelled hinged bangles from the Joan Rivers Classics line. Priced as one set. Signed.</p>",
+    "price": {
+      "amount": 150,
+      "currencyCode": "USD"
+    },
+    "images": [
+      {
+        "url": "/pieces/vb-b008.jpg",
+        "alt": "Joan Rivers Classics Brown & Black Enamel Hinged Bangles, Set",
+        "width": 1600,
+        "height": 1067
+      }
+    ],
+    "category": "bracelets",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "Joan Rivers",
+    "decade": "1990s",
+    "origin": "United States",
+    "materials": "Enamel, gold-tone",
+    "condition": "Excellent vintage condition",
+    "measurements": "7 cm diameter (2 3/4 in)",
+    "clasp": "Hinged",
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "Joan Rivers Classics — Brazaletes con bisagra esmaltados café y negro, set",
+        "descriptionHtml": "<p>Un set de brazaletes con bisagra esmaltados en café y negro, de la línea Joan Rivers Classics. Precio por el set. Firmados.</p>",
+        "materials": "Esmalte, tono dorado",
+        "condition": "Excelente estado vintage",
+        "origin": "Estados Unidos",
+        "clasp": "Bisagra",
+        "measurements": "7 cm de diámetro (2 3/4 in)"
+      }
+    }
+  },
+  {
+    "id": "vb-e009",
+    "handle": "oscar-de-la-renta-gold-plated-enamel-flower-earrings",
+    "title": "Oscar de la Renta Gold-Plated Enamel Flower Earrings",
+    "descriptionHtml": "<p>Lightweight gold-plated brass flower earrings with enamelled petals, for pierced ears. Sold with the original Oscar de la Renta canvas pouch.</p>",
+    "price": {
+      "amount": 205,
+      "currencyCode": "USD"
+    },
+    "images": [
+      {
+        "url": "/pieces/vb-e009.jpg",
+        "alt": "Oscar de la Renta Gold-Plated Enamel Flower Earrings",
+        "width": 600,
+        "height": 400
+      }
+    ],
+    "category": "earrings",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "Oscar de la Renta",
+    "decade": "1960s",
+    "origin": "United States",
+    "materials": "Gold-plated brass, enamelled petals",
+    "condition": "Excellent vintage condition",
+    "earringType": "pierced",
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "Oscar de la Renta — Aretes de flor con baño de oro y esmalte",
+        "descriptionHtml": "<p>Aretes ligeros de flor en latón con baño de oro y pétalos esmaltados, para oreja perforada. Se entregan con su bolsa original de lona de Oscar de la Renta.</p>",
+        "materials": "Latón con baño de oro, pétalos esmaltados",
+        "condition": "Excelente estado vintage",
+        "origin": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "id": "vb-s001",
+    "handle": "givenchy-brushed-gold-collar-necklace-clip-earrings-demi-parure",
+    "title": "Givenchy Brushed Gold Collar Necklace & Clip Earrings Demi-Parure",
+    "descriptionHtml": "<p>A brushed gold collar necklace and matching clip-on earrings in classic 1980s Hubert de Givenchy style. Signed Givenchy on the back of the necklace and on the earring clips.</p>",
+    "price": {
+      "amount": 375,
+      "currencyCode": "USD"
+    },
+    "images": [
+      {
+        "url": "/pieces/vb-s001.jpg",
+        "alt": "Givenchy Brushed Gold Collar Necklace & Clip Earrings Demi-Parure",
+        "width": 600,
+        "height": 400
+      }
+    ],
+    "category": "necklaces",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "Givenchy",
+    "decade": "1980s",
+    "origin": "France",
+    "materials": "Brushed gold-tone",
+    "condition": "Excellent, with minor age marks that are barely noticeable",
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "Givenchy — Demi-parure de collar y aretes de clip, dorado cepillado",
+        "descriptionHtml": "<p>Un collar gargantilla dorado cepillado con sus aretes de clip a juego, con la estética clásica de Hubert de Givenchy en los años 80. Firmados Givenchy al reverso del collar y en los clips de los aretes.</p>",
+        "materials": "Tono dorado cepillado",
+        "condition": "Excelente, con pequeñas marcas de la edad casi imperceptibles",
+        "origin": "Francia"
+      }
+    }
+  },
+  {
+    "id": "vb-b009",
+    "handle": "joan-rivers-multicolor-enamel-hinged-bracelet-set",
+    "title": "Joan Rivers Multicolor Enamel Hinged Bracelet Set",
+    "descriptionHtml": "<p>A set of gold-tone hinged bracelets with multicolour enamel. Priced as one set.</p>",
+    "price": {
+      "amount": 126,
+      "currencyCode": "USD"
+    },
+    "images": [
+      {
+        "url": "/pieces/vb-b009.jpg",
+        "alt": "Joan Rivers Multicolor Enamel Hinged Bracelet Set",
+        "width": 600,
+        "height": 400
+      }
+    ],
+    "category": "bracelets",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "Joan Rivers",
+    "decade": "1990s",
+    "origin": "United States",
+    "materials": "Gold-tone, multicolour enamel",
+    "condition": "Excellent vintage condition",
+    "measurements": "17.8 cm long (7 in)",
+    "clasp": "Hinged",
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "Joan Rivers — Set de pulseras con bisagra con esmalte multicolor",
+        "descriptionHtml": "<p>Un set de pulseras con bisagra en tono dorado con esmalte multicolor. Precio por el set.</p>",
+        "materials": "Tono dorado, esmalte multicolor",
+        "condition": "Excelente estado vintage",
+        "origin": "Estados Unidos",
+        "clasp": "Bisagra",
+        "measurements": "17.8 cm de largo (7 in)"
+      }
+    }
+  },
+  {
+    "id": "vb-e010",
+    "handle": "kenneth-jay-lane-for-avon-regal-riches-sunburst-clip-earrings",
+    "title": "Kenneth Jay Lane for Avon “Regal Riches” Sunburst Clip Earrings",
+    "descriptionHtml": "<p>Modernist sunburst statement clip earrings from the “Regal Riches” line. Stamped K.J.L.</p>",
+    "price": {
+      "amount": 125,
+      "currencyCode": "USD"
+    },
+    "images": [
+      {
+        "url": "/pieces/vb-e010.jpg",
+        "alt": "Kenneth Jay Lane for Avon “Regal Riches” Sunburst Clip Earrings",
+        "width": 600,
+        "height": 400
+      }
+    ],
+    "category": "earrings",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "Kenneth Jay Lane",
+    "decade": "1980s",
+    "origin": "United States",
+    "materials": "Gold-tone",
+    "condition": "Excellent condition",
+    "earringType": "clip",
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "Kenneth Jay Lane for Avon — Aretes de clip sol “Regal Riches”",
+        "descriptionHtml": "<p>Aretes de clip statement con forma de sol, de estilo modernista, de la línea “Regal Riches”. Marcados K.J.L.</p>",
+        "materials": "Tono dorado",
+        "condition": "Excelente estado",
+        "origin": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "id": "vb-s002",
+    "handle": "elizabeth-taylor-for-avon-taylored-style-cabochon-pendant-necklace-earrings",
+    "title": "Elizabeth Taylor for Avon “Taylored Style” Cabochon Pendant Necklace & Earrings",
+    "descriptionHtml": "<p>An oval cabochon pendant necklace with a toggle closure and matching clip-on earrings, in polished 22k gold plate with faux jade green and red Gripoix. From the Taylored Style Collection.</p>",
+    "price": {
+      "amount": 525,
+      "currencyCode": "USD"
+    },
+    "images": [
+      {
+        "url": "/pieces/vb-s002.jpg",
+        "alt": "Elizabeth Taylor for Avon “Taylored Style” Cabochon Pendant Necklace & Earrings, worn",
+        "width": 1067,
+        "height": 1600
+      },
+      {
+        "url": "/pieces/vb-s002-2.jpg",
+        "alt": "Elizabeth Taylor for Avon “Taylored Style” Cabochon Pendant Necklace & Earrings, worn",
+        "width": 1067,
+        "height": 1600
+      }
+    ],
+    "category": "necklaces",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "Elizabeth Taylor",
+    "decade": "1990s",
+    "origin": "United States",
+    "materials": "22k gold plated, faux jade green and red Gripoix",
+    "condition": "Excellent vintage condition",
+    "clasp": "Toggle",
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "Elizabeth Taylor for Avon — Collar con dije de cabujón y aretes “Taylored Style”",
+        "descriptionHtml": "<p>Un collar con dije de cabujón ovalado y cierre de palanca, con aretes de clip a juego, en baño de oro de 22k pulido con Gripoix de imitación en verde jade y rojo. De la Taylored Style Collection.</p>",
+        "materials": "Baño de oro de 22k, Gripoix de imitación en verde jade y rojo",
+        "condition": "Excelente estado vintage",
+        "origin": "Estados Unidos",
+        "clasp": "Cierre de palanca"
+      }
+    }
+  },
+  {
+    "id": "vb-b010",
+    "handle": "monet-brushed-gold-etched-bangle",
+    "title": "Monet Brushed Gold Etched Bangle",
+    "descriptionHtml": "<p>A wide brushed gold bangle with an etched geometric design. Signed Monet.</p>",
+    "price": {
+      "amount": 55,
+      "currencyCode": "USD"
+    },
+    "images": [
+      {
+        "url": "/pieces/vb-b010.jpg",
+        "alt": "Monet Brushed Gold Etched Bangle",
+        "width": 600,
+        "height": 400
+      }
+    ],
+    "category": "bracelets",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "Monet",
+    "decade": "1970s–1980s",
+    "origin": "United States",
+    "materials": "Brushed gold-tone",
+    "condition": "Excellent vintage condition",
+    "measurements": "5.1 cm wide (2 in)",
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "Monet — Brazalete dorado cepillado y grabado",
+        "descriptionHtml": "<p>Un brazalete ancho dorado cepillado con un diseño geométrico grabado. Firmado Monet.</p>",
+        "materials": "Tono dorado cepillado",
+        "condition": "Excelente estado vintage",
+        "origin": "Estados Unidos",
+        "measurements": "5.1 cm de ancho (2 in)"
+      }
+    }
+  },
+  {
+    "id": "vb-e011",
+    "handle": "ciner-gold-tone-clip-earrings-with-cream-swirl-black-cabochon",
+    "title": "Ciner Gold-Tone Clip Earrings with Cream Swirl & Black Cabochon",
+    "descriptionHtml": "<p>Gold-tone clip earrings with a cream swirl and a black cabochon. Signed Ciner.</p>",
+    "price": {
+      "amount": 225,
+      "currencyCode": "USD"
+    },
+    "images": [
+      {
+        "url": "/pieces/vb-e011.jpg",
+        "alt": "Ciner Gold-Tone Clip Earrings with Cream Swirl & Black Cabochon",
+        "width": 600,
+        "height": 400
+      }
+    ],
+    "category": "earrings",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "Ciner",
+    "decade": "",
+    "origin": "United States",
+    "materials": "Gold-tone, cream swirl, black cabochon",
+    "condition": "Excellent vintage condition",
+    "measurements": "3.5 cm diameter (1 3/8 in)",
+    "earringType": "clip",
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "Ciner — Aretes de clip dorados con espiral crema y cabujón negro",
+        "descriptionHtml": "<p>Aretes de clip en tono dorado con una espiral crema y un cabujón negro. Firmados Ciner.</p>",
+        "materials": "Tono dorado, espiral crema, cabujón negro",
+        "condition": "Excelente estado vintage",
+        "origin": "Estados Unidos",
+        "measurements": "3.5 cm de diámetro (1 3/8 in)"
+      }
+    }
+  },
+  {
+    "id": "vb-s003",
+    "handle": "monet-omega-tubogas-collar-cobalt-blue-cabochon-earrings-set",
+    "title": "Monet Omega Tubogas Collar & Cobalt Blue Cabochon Earrings Set",
+    "descriptionHtml": "<p>An Omega tubogas collar necklace with matching cobalt blue cabochon earrings for pierced ears, in triple 14k gold-plated base metal with poured glass cabochons.</p>",
+    "price": {
+      "amount": 299,
+      "currencyCode": "USD"
+    },
+    "images": [
+      {
+        "url": "/pieces/vb-s003.jpg",
+        "alt": "Monet Omega Tubogas Collar & Cobalt Blue Cabochon Earrings Set",
+        "width": 600,
+        "height": 400
+      }
+    ],
+    "category": "necklaces",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "Monet",
+    "decade": "1980s",
+    "origin": "United States",
+    "materials": "Triple gold-plated base metal (14k), poured glass cabochons",
+    "condition": "Mint vintage condition",
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "Monet — Set de gargantilla Omega tubogas y aretes con cabujón azul cobalto",
+        "descriptionHtml": "<p>Una gargantilla Omega tubogas con aretes a juego de cabujón azul cobalto para oreja perforada, en metal con triple baño de oro de 14k y cabujones de vidrio fundido.</p>",
+        "materials": "Metal base con triple baño de oro (14k), cabujones de vidrio fundido",
+        "condition": "Vintage, como nuevo",
+        "origin": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "id": "vb-b011",
+    "handle": "1990s-brushed-gold-openwork-cuff",
+    "title": "1990s Brushed Gold Openwork Cuff",
+    "descriptionHtml": "<p>A brushed gold cuff with a flowing openwork design. Unsigned.</p>",
+    "price": {
+      "amount": 65,
+      "currencyCode": "USD"
+    },
+    "images": [
+      {
+        "url": "/pieces/vb-b011.jpg",
+        "alt": "1990s Brushed Gold Openwork Cuff",
+        "width": 600,
+        "height": 400
+      }
+    ],
+    "category": "bracelets",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "",
+    "decade": "1990s",
+    "origin": "Sourced in the UK",
+    "materials": "Brushed gold finish",
+    "condition": "Excellent vintage condition",
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "Brazalete abierto calado, dorado cepillado, años 90",
+        "descriptionHtml": "<p>Un brazalete dorado cepillado con un diseño calado y fluido. Sin firma.</p>",
+        "materials": "Acabado dorado cepillado",
+        "condition": "Excelente estado vintage",
+        "origin": "Conseguido en el Reino Unido"
+      }
+    }
+  },
+  {
+    "id": "vb-e012",
+    "handle": "givenchy-4g-logo-coin-stud-earrings",
+    "title": "Givenchy 4G Logo Coin Stud Earrings",
+    "descriptionHtml": "<p>Disc-style coin stud earrings in gold-plated metal, set with the house’s iconic 4G logo.</p>",
+    "price": {
+      "amount": 280,
+      "currencyCode": "USD"
+    },
+    "images": [
+      {
+        "url": "/pieces/vb-e012.jpg",
+        "alt": "Givenchy 4G Logo Coin Stud Earrings",
+        "width": 600,
+        "height": 400
+      }
+    ],
+    "category": "earrings",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "Givenchy",
+    "decade": "1980s",
+    "origin": "France",
+    "materials": "Gold-plated metal",
+    "condition": "Excellent vintage condition",
+    "earringType": "pierced",
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "Givenchy — Aretes de botón tipo moneda con el logo 4G",
+        "descriptionHtml": "<p>Aretes de botón tipo moneda en metal con baño de oro, con el icónico logo 4G de la casa.</p>",
+        "materials": "Metal con baño de oro",
+        "condition": "Excelente estado vintage",
+        "origin": "Francia"
+      }
+    }
+  },
+  {
+    "id": "vb-e013",
+    "handle": "nolan-miller-bordeaux-red-crystal-rhinestone-clip-earrings",
+    "title": "Nolan Miller “Bordeaux” Red Crystal & Rhinestone Clip Earrings",
+    "descriptionHtml": "<p>Red crystal and clear rhinestone clip earrings from Nolan Miller’s Bordeaux Collection. Signed Nolan Miller.</p>",
+    "price": {
+      "amount": 85,
+      "currencyCode": "USD"
+    },
+    "images": [
+      {
+        "url": "/pieces/vb-e013.jpg",
+        "alt": "Nolan Miller “Bordeaux” Red Crystal & Rhinestone Clip Earrings",
+        "width": 600,
+        "height": 400
+      }
+    ],
+    "category": "earrings",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "Nolan Miller",
+    "decade": "1980s",
+    "origin": "United States",
+    "materials": "Red crystal, clear rhinestones",
+    "condition": "Excellent vintage condition",
+    "earringType": "clip",
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "Nolan Miller — Aretes de clip “Bordeaux” de cristal rojo y transparente",
+        "descriptionHtml": "<p>Aretes de clip de cristal rojo y cristales transparentes de la Bordeaux Collection de Nolan Miller. Firmados Nolan Miller.</p>",
+        "materials": "Cristal rojo, cristales transparentes",
+        "condition": "Excelente estado vintage",
+        "origin": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "id": "vb-e014",
+    "handle": "joan-rivers-heart-drop-clip-earrings-black-clear-pave",
+    "title": "Joan Rivers Heart Drop Clip Earrings, Black & Clear Pavé",
+    "descriptionHtml": "<p>Clip-on dangle earrings from the Classic Collection: a round top and a heart drop in gold-tone, paved with black and clear crystals. Signed on the reverse.</p>",
+    "price": {
+      "amount": 120,
+      "currencyCode": "USD"
+    },
+    "images": [
+      {
+        "url": "/pieces/vb-e014.jpg",
+        "alt": "Joan Rivers Heart Drop Clip Earrings, Black & Clear Pavé",
+        "width": 600,
+        "height": 400
+      }
+    ],
+    "category": "earrings",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "Joan Rivers",
+    "decade": "",
+    "origin": "United States",
+    "materials": "Gold-tone metal, black and clear pavé crystals",
+    "condition": "Excellent vintage condition",
+    "measurements": "5.7 cm long (2 1/4 in)",
+    "earringType": "clip",
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "Joan Rivers — Aretes de clip con corazón colgante, pavé negro y transparente",
+        "descriptionHtml": "<p>Aretes colgantes de clip de la Classic Collection: un círculo arriba y un corazón colgante en tono dorado, con pavé de cristales negros y transparentes. Firmados al reverso.</p>",
+        "materials": "Metal en tono dorado, pavé de cristales negros y transparentes",
+        "condition": "Excelente estado vintage",
+        "origin": "Estados Unidos",
+        "measurements": "5.7 cm de largo (2 1/4 in)"
+      }
+    }
+  },
+  {
+    "id": "vb-e015",
+    "handle": "swarovski-s-a-l-crystal-pale-pink-mabe-pearl-earrings",
+    "title": "Swarovski S.A.L. Crystal & Pale Pink Mabe Pearl Earrings",
+    "descriptionHtml": "<p>Gold-plated earrings with crystals and a pale pink mabe pearl. Signed S.A.L. (Swarovski).</p>",
+    "price": {
+      "amount": 80,
+      "currencyCode": "USD"
+    },
+    "images": [
+      {
+        "url": "/pieces/vb-e015.jpg",
+        "alt": "Swarovski S.A.L. Crystal & Pale Pink Mabe Pearl Earrings",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "category": "earrings",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "Swarovski",
+    "decade": "1980s",
+    "origin": "Austria",
+    "materials": "Gold plated, crystal, pale pink mabe pearl",
+    "condition": "Excellent vintage condition",
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "Swarovski — Aretes S.A.L. con cristales y perla mabé rosa pálido",
+        "descriptionHtml": "<p>Aretes con baño de oro, cristales y una perla mabé rosa pálido. Firmados S.A.L. (Swarovski).</p>",
+        "materials": "Baño de oro, cristal, perla mabé rosa pálido",
+        "condition": "Excelente estado vintage",
+        "origin": "Austria"
+      }
+    }
+  },
+  {
+    "id": "vb-e016",
+    "handle": "faux-pearl-cornucopia-clip-earrings",
+    "title": "Faux Pearl Cornucopia Clip Earrings",
+    "descriptionHtml": "<p>Matte gold button earrings in a cornucopia shape, set with faux pearl cabochons.</p>",
+    "price": {
+      "amount": 84,
+      "currencyCode": "USD"
+    },
+    "images": [
+      {
+        "url": "/pieces/vb-e016.jpg",
+        "alt": "Faux Pearl Cornucopia Clip Earrings",
+        "width": 600,
+        "height": 400
+      }
+    ],
+    "category": "earrings",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "",
+    "decade": "",
+    "origin": "Sourced in the UK",
+    "materials": "Matte gold-tone, faux pearl cabochons",
+    "condition": "Excellent vintage condition",
+    "measurements": "3.8 cm long (1 1/2 in)",
+    "earringType": "clip",
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "Aretes de clip cornucopia con perlas de imitación",
+        "descriptionHtml": "<p>Aretes de botón en dorado mate con forma de cornucopia y cabujones de perla de imitación.</p>",
+        "materials": "Tono dorado mate, cabujones de perla de imitación",
+        "condition": "Excelente estado vintage",
+        "origin": "Conseguido en el Reino Unido",
+        "measurements": "3.8 cm de largo (1 1/2 in)"
+      }
+    }
+  },
+  {
+    "id": "vb-e017",
+    "handle": "joan-rivers-fluted-square-domed-clip-earrings",
+    "title": "Joan Rivers Fluted Square Domed Clip Earrings",
+    "descriptionHtml": "<p>Square domed clip earrings with horizontal fluting in rich gold-tone. Signed Joan Rivers.</p>",
+    "price": {
+      "amount": 70,
+      "currencyCode": "USD"
+    },
+    "images": [
+      {
+        "url": "/pieces/vb-e017.jpg",
+        "alt": "Joan Rivers Fluted Square Domed Clip Earrings",
+        "width": 600,
+        "height": 400
+      }
+    ],
+    "category": "earrings",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "Joan Rivers",
+    "decade": "",
+    "origin": "United States",
+    "materials": "Rich gold-tone",
+    "condition": "Excellent vintage condition",
+    "measurements": "2.5 cm high; 2.5 cm wide (1 in; 1 in)",
+    "earringType": "clip",
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "Joan Rivers — Aretes de clip cuadrados, abombados y acanalados",
+        "descriptionHtml": "<p>Aretes de clip cuadrados y abombados, con acanalado horizontal en un dorado intenso. Firmados Joan Rivers.</p>",
+        "materials": "Tono dorado intenso",
+        "condition": "Excelente estado vintage",
+        "origin": "Estados Unidos",
+        "measurements": "2.5 cm de alto; 2.5 cm de ancho (1 in; 1 in)"
+      }
+    }
+  },
+  {
+    "id": "vb-e018",
+    "handle": "elizabeth-taylor-diamante-wreath-bow-clip-earrings",
+    "title": "Elizabeth Taylor Diamanté Wreath Bow Clip Earrings",
+    "descriptionHtml": "<p>Gold-plated wreath bow clip earrings set with diamanté crystals. Signed WD.</p>",
+    "price": {
+      "amount": 80,
+      "currencyCode": "USD"
+    },
+    "images": [
+      {
+        "url": "/pieces/vb-e018.jpg",
+        "alt": "Elizabeth Taylor Diamanté Wreath Bow Clip Earrings",
+        "width": 600,
+        "height": 400
+      }
+    ],
+    "category": "earrings",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "Elizabeth Taylor",
+    "decade": "1990s",
+    "materials": "Gold-plated, diamanté crystals",
+    "condition": "Excellent vintage condition",
+    "measurements": "3.8 cm long; 3.2 cm wide (1 1/2 in; 1 1/4 in)",
+    "earringType": "clip",
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "Elizabeth Taylor — Aretes de clip corona con moño y cristales diamanté",
+        "descriptionHtml": "<p>Aretes de clip en forma de corona con moño, con baño de oro y cristales diamanté. Firmados WD.</p>",
+        "materials": "Baño de oro, cristales diamanté",
+        "condition": "Excelente estado vintage",
+        "measurements": "3.8 cm de largo; 3.2 cm de ancho (1 1/2 in; 1 1/4 in)"
+      }
+    }
+  },
+  {
+    "id": "vb-e019",
+    "handle": "1980s-rhinestone-door-knocker-clip-earrings",
+    "title": "1980s Rhinestone Door Knocker Clip Earrings",
+    "descriptionHtml": "<p>Large door knocker dangle earrings in matte gold plate with clear rhinestones.</p>",
+    "price": {
+      "amount": 55,
+      "currencyCode": "USD"
+    },
+    "images": [
+      {
+        "url": "/pieces/vb-e019.jpg",
+        "alt": "1980s Rhinestone Door Knocker Clip Earrings",
+        "width": 600,
+        "height": 400
+      }
+    ],
+    "category": "earrings",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "",
+    "decade": "1980s",
+    "origin": "Sourced in the UK",
+    "materials": "Matte gold plated, clear rhinestones",
+    "condition": "Excellent vintage condition",
+    "measurements": "4.6 cm long; 3.3 cm wide (1.8 in; 1.3 in)",
+    "earringType": "clip",
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "Aretes de clip tipo aldaba con cristales, años 80",
+        "descriptionHtml": "<p>Aretes grandes colgantes tipo aldaba, con baño de oro mate y cristales transparentes.</p>",
+        "materials": "Baño de oro mate, cristales transparentes",
+        "condition": "Excelente estado vintage",
+        "origin": "Conseguido en el Reino Unido",
+        "measurements": "4.6 cm de largo; 3.3 cm de ancho (1.8 in; 1.3 in)"
+      }
+    }
+  },
+  {
+    "id": "vb-e020",
+    "handle": "avon-bold-scroll-faux-carnelian-dangle-clip-earrings",
+    "title": "Avon “Bold Scroll” Faux Carnelian Dangle Clip Earrings",
+    "descriptionHtml": "<p>Rope-scroll dangle earrings set with faux carnelian cabochons, in a bohemian artisan style.</p>",
+    "price": {
+      "amount": 125,
+      "currencyCode": "USD"
+    },
+    "images": [
+      {
+        "url": "/pieces/vb-e020.jpg",
+        "alt": "Avon “Bold Scroll” Faux Carnelian Dangle Clip Earrings",
+        "width": 600,
+        "height": 400
+      }
+    ],
+    "category": "earrings",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "Avon",
+    "decade": "1990s",
+    "origin": "United States",
+    "materials": "Gold-tone rope, faux carnelian cabochons",
+    "condition": "Excellent vintage condition",
+    "measurements": "7 cm long; 3.8 cm wide (2 3/4 in; 1 1/2 in)",
+    "earringType": "clip",
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "Avon — Aretes colgantes de clip “Bold Scroll” con cornalina de imitación",
+        "descriptionHtml": "<p>Aretes colgantes con volutas de cordón y cabujones de cornalina de imitación, de estilo artesanal bohemio.</p>",
+        "materials": "Cordón en tono dorado, cabujones de cornalina de imitación",
+        "condition": "Excelente estado vintage",
+        "origin": "Estados Unidos",
+        "measurements": "7 cm de largo; 3.8 cm de ancho (2 3/4 in; 1 1/2 in)"
+      }
+    }
+  },
+  {
+    "id": "vb-e021",
+    "handle": "st-john-textured-gold-tone-pave-door-knocker-clip-earrings",
+    "title": "St. John Textured Gold-Tone Pavé Door Knocker Clip Earrings",
+    "descriptionHtml": "<p>Textured gold-plated door knocker clip earrings with diamanté rhinestone pavé.</p>",
+    "price": {
+      "amount": 185,
+      "currencyCode": "USD"
+    },
+    "images": [
+      {
+        "url": "/pieces/vb-e021.jpg",
+        "alt": "St. John Textured Gold-Tone Pavé Door Knocker Clip Earrings",
+        "width": 1600,
+        "height": 1067
+      }
+    ],
+    "category": "earrings",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "St. John",
+    "decade": "",
+    "origin": "United States",
+    "materials": "Gold plated, diamanté rhinestone pavé",
+    "condition": "Excellent vintage condition",
+    "earringType": "clip",
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "St. John — Aretes de clip tipo aldaba, dorado texturizado con pavé",
+        "descriptionHtml": "<p>Aretes de clip tipo aldaba con baño de oro texturizado y pavé de cristales diamanté.</p>",
+        "materials": "Baño de oro, pavé de cristales diamanté",
+        "condition": "Excelente estado vintage",
+        "origin": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "id": "vb-e022",
+    "handle": "faux-pearl-rhinestone-shell-earrings",
+    "title": "Faux Pearl & Rhinestone Shell Earrings",
+    "descriptionHtml": "<p>Gold-tone shell earrings with a faux “Moby” pearl and rhinestones.</p>",
+    "price": {
+      "amount": 155,
+      "currencyCode": "USD"
+    },
+    "images": [
+      {
+        "url": "/pieces/vb-e022.jpg",
+        "alt": "Faux Pearl & Rhinestone Shell Earrings",
+        "width": 1600,
+        "height": 1067
+      }
+    ],
+    "category": "earrings",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "",
+    "decade": "",
+    "origin": "Sourced in the UK",
+    "materials": "Gold-tone, faux pearl, rhinestones",
+    "condition": "Excellent vintage condition",
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "Aretes de concha con perla de imitación y cristales",
+        "descriptionHtml": "<p>Aretes de concha en tono dorado con una perla “Moby” de imitación y cristales.</p>",
+        "materials": "Tono dorado, perla de imitación, cristales",
+        "condition": "Excelente estado vintage",
+        "origin": "Conseguido en el Reino Unido"
+      }
+    }
+  },
+  {
+    "id": "vb-e023",
+    "handle": "anne-klein-brown-gold-statement-dangle-clip-earrings",
+    "title": "Anne Klein Brown & Gold Statement Dangle Clip Earrings",
+    "descriptionHtml": "<p>Oversized modern dangle clip earrings in brown and gold, straight from 1990s runway style. Signed Anne Klein.</p>",
+    "price": {
+      "amount": 95,
+      "currencyCode": "USD"
+    },
+    "images": [
+      {
+        "url": "/pieces/vb-e023.jpg",
+        "alt": "Anne Klein Brown & Gold Statement Dangle Clip Earrings",
+        "width": 600,
+        "height": 400
+      }
+    ],
+    "category": "earrings",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "Anne Klein",
+    "decade": "1990s",
+    "origin": "United States",
+    "materials": "Brown and gold-tone",
+    "condition": "Excellent vintage condition",
+    "measurements": "7.6 cm long; 4.3 cm wide (3 in; 1.7 in)",
+    "earringType": "clip",
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "Anne Klein — Aretes de clip colgantes statement, café y dorado",
+        "descriptionHtml": "<p>Aretes de clip colgantes, grandes y modernos, en café y dorado, con todo el estilo de pasarela de los 90. Firmados Anne Klein.</p>",
+        "materials": "Café y tono dorado",
+        "condition": "Excelente estado vintage",
+        "origin": "Estados Unidos",
+        "measurements": "7.6 cm de largo; 4.3 cm de ancho (3 in; 1.7 in)"
+      }
+    }
+  },
+  {
+    "id": "vb-e024",
+    "handle": "robin-gold-green-door-knocker-clip-earrings",
+    "title": "Robin Gold & Green Door Knocker Clip Earrings",
+    "descriptionHtml": "<p>Bold modern door knocker clip earrings in gold and green. Signed Robin.</p>",
+    "price": {
+      "amount": 95,
+      "currencyCode": "USD"
+    },
+    "images": [
+      {
+        "url": "/pieces/vb-e024.jpg",
+        "alt": "Robin Gold & Green Door Knocker Clip Earrings",
+        "width": 600,
+        "height": 400
+      }
+    ],
+    "category": "earrings",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "Robin",
+    "decade": "1990s",
+    "materials": "Gold-tone, green",
+    "condition": "Excellent vintage condition",
+    "measurements": "5.8 cm long; 4.6 cm wide (2.3 in; 1.8 in)",
+    "earringType": "clip",
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "Robin — Aretes de clip tipo aldaba, dorado y verde",
+        "descriptionHtml": "<p>Aretes de clip tipo aldaba, grandes y modernos, en dorado y verde. Firmados Robin.</p>",
+        "materials": "Tono dorado, verde",
+        "condition": "Excelente estado vintage",
+        "measurements": "5.8 cm de largo; 4.6 cm de ancho (2.3 in; 1.8 in)"
+      }
+    }
+  },
+  {
+    "id": "vb-e025",
+    "handle": "1980s-gold-tone-door-knocker-earrings",
+    "title": "1980s Gold-Tone Door Knocker Earrings",
+    "descriptionHtml": "<p>Gold-tone door knocker dangle earrings from the 1980s.</p>",
+    "price": {
+      "amount": 55,
+      "currencyCode": "USD"
+    },
+    "images": [
+      {
+        "url": "/pieces/vb-e025.jpg",
+        "alt": "1980s Gold-Tone Door Knocker Earrings",
+        "width": 1067,
+        "height": 1600
+      }
+    ],
+    "category": "earrings",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "",
+    "decade": "1980s",
+    "origin": "Sourced in the UK",
+    "materials": "Gold-tone",
+    "condition": "Excellent vintage condition",
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "Aretes tipo aldaba en tono dorado, años 80",
+        "descriptionHtml": "<p>Aretes colgantes tipo aldaba en tono dorado, de los años 80.</p>",
+        "materials": "Tono dorado",
+        "condition": "Excelente estado vintage",
+        "origin": "Conseguido en el Reino Unido"
+      }
+    }
+  },
+  {
+    "id": "vb-e026",
+    "handle": "kenneth-jay-lane-gold-tone-double-hoop-clip-earrings",
+    "title": "Kenneth Jay Lane Gold-Tone Double Hoop Clip Earrings",
+    "descriptionHtml": "<p>Gold-tone door knocker clip earrings with a double hoop. Signed KJL.</p>",
+    "price": {
+      "amount": 75,
+      "currencyCode": "USD"
+    },
+    "images": [
+      {
+        "url": "/pieces/vb-e026.jpg",
+        "alt": "Kenneth Jay Lane Gold-Tone Double Hoop Clip Earrings",
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "url": "/pieces/vb-e026-2.jpg",
+        "alt": "Kenneth Jay Lane Gold-Tone Double Hoop Clip Earrings, another view",
+        "width": 1600,
+        "height": 1067
+      }
+    ],
+    "category": "earrings",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "Kenneth Jay Lane",
+    "decade": "1980s",
+    "origin": "United States",
+    "materials": "Gold-tone",
+    "condition": "Excellent vintage condition",
+    "measurements": "4.4 cm long; 3.2 cm wide (1 3/4 in; 1 1/4 in)",
+    "earringType": "clip",
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "Kenneth Jay Lane — Aretes de clip de doble aro en tono dorado",
+        "descriptionHtml": "<p>Aretes de clip tipo aldaba en tono dorado, con doble aro. Firmados KJL.</p>",
+        "materials": "Tono dorado",
+        "condition": "Excelente estado vintage",
+        "origin": "Estados Unidos",
+        "measurements": "4.4 cm de largo; 3.2 cm de ancho (1 3/4 in; 1 1/4 in)"
+      }
+    }
+  },
+  {
+    "id": "vb-e027",
+    "handle": "joan-rivers-animal-print-gold-tone-clip-earrings",
+    "title": "Joan Rivers Animal Print Gold-Tone Clip Earrings",
+    "descriptionHtml": "<p>Gold-tone clip earrings with an animal print motif. Signed.</p>",
+    "price": {
+      "amount": 70,
+      "currencyCode": "USD"
+    },
+    "images": [
+      {
+        "url": "/pieces/vb-e027.jpg",
+        "alt": "Joan Rivers Animal Print Gold-Tone Clip Earrings",
+        "width": 600,
+        "height": 400
+      }
+    ],
+    "category": "earrings",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "Joan Rivers",
+    "decade": "1990s",
+    "origin": "United States",
+    "materials": "Gold-tone, animal print",
+    "condition": "Excellent vintage condition",
+    "earringType": "clip",
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "Joan Rivers — Aretes de clip dorados con estampado animal",
+        "descriptionHtml": "<p>Aretes de clip en tono dorado con motivo de estampado animal. Firmados.</p>",
+        "materials": "Tono dorado, estampado animal",
+        "condition": "Excelente estado vintage",
+        "origin": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "id": "vb-e028",
+    "handle": "blanca-jeweled-swirl-statement-clip-earrings",
+    "title": "Blanca Jeweled Swirl Statement Clip Earrings",
+    "descriptionHtml": "<p>Gold-tone swirl statement clip earrings set with colourful crystal rhinestones. Signed Blanca.</p>",
+    "price": {
+      "amount": 155,
+      "currencyCode": "USD"
+    },
+    "images": [
+      {
+        "url": "/pieces/vb-e028.jpg",
+        "alt": "Blanca Jeweled Swirl Statement Clip Earrings",
+        "width": 600,
+        "height": 400
+      }
+    ],
+    "category": "earrings",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "Blanca",
+    "decade": "1980s",
+    "materials": "Gold-tone, colourful crystal rhinestones",
+    "condition": "Excellent vintage condition",
+    "measurements": "4.4 cm long (1 3/4 in)",
+    "earringType": "clip",
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "Blanca — Aretes de clip statement en espiral con pedrería",
+        "descriptionHtml": "<p>Aretes de clip statement en espiral, en tono dorado con cristales de colores. Firmados Blanca.</p>",
+        "materials": "Tono dorado, cristales de colores",
+        "condition": "Excelente estado vintage",
+        "measurements": "4.4 cm de largo (1 3/4 in)"
+      }
+    }
+  },
+  {
+    "id": "vb-e029",
+    "handle": "1980s-jewel-tone-rhinestone-clip-earrings",
+    "title": "1980s Jewel-Tone Rhinestone Clip Earrings",
+    "descriptionHtml": "<p>Gold-tone clip earrings set with jewel-toned multicolour rhinestones.</p>",
+    "price": {
+      "amount": 65,
+      "currencyCode": "USD"
+    },
+    "images": [
+      {
+        "url": "/pieces/vb-e029.jpg",
+        "alt": "1980s Jewel-Tone Rhinestone Clip Earrings",
+        "width": 600,
+        "height": 400
+      }
+    ],
+    "category": "earrings",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "",
+    "decade": "1980s",
+    "origin": "Sourced in the UK",
+    "materials": "Gold-tone, multicolour rhinestones",
+    "condition": "Excellent vintage condition",
+    "earringType": "clip",
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "Aretes de clip con cristales en tonos joya, años 80",
+        "descriptionHtml": "<p>Aretes de clip en tono dorado con cristales multicolor en tonos joya.</p>",
+        "materials": "Tono dorado, cristales multicolor",
+        "condition": "Excelente estado vintage",
+        "origin": "Conseguido en el Reino Unido"
+      }
+    }
+  },
+  {
+    "id": "vb-e030",
+    "handle": "st-john-black-enamel-rhinestone-oval-clip-earrings",
+    "title": "St. John Black Enamel & Rhinestone Oval Clip Earrings",
+    "descriptionHtml": "<p>Couture-quality oval clip earrings in a gold finish with black enamel, rhinestones and a modern swirl design. Signed.</p>",
+    "price": {
+      "amount": 155,
+      "currencyCode": "USD"
+    },
+    "images": [
+      {
+        "url": "/pieces/vb-e030.jpg",
+        "alt": "St. John Black Enamel & Rhinestone Oval Clip Earrings",
+        "width": 600,
+        "height": 400
+      }
+    ],
+    "category": "earrings",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "St. John",
+    "decade": "1980s",
+    "origin": "United States",
+    "materials": "Gold finish, black enamel, rhinestones",
+    "condition": "Excellent vintage condition",
+    "earringType": "clip",
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "St. John — Aretes de clip ovalados con esmalte negro y cristales",
+        "descriptionHtml": "<p>Aretes de clip ovalados de calidad couture, con acabado dorado, esmalte negro, cristales y un diseño moderno en espiral. Firmados.</p>",
+        "materials": "Acabado dorado, esmalte negro, cristales",
+        "condition": "Excelente estado vintage",
+        "origin": "Estados Unidos"
+      }
+    }
+  },
+  {
+    "id": "vb-e031",
+    "handle": "kenneth-jay-lane-interchangeable-animal-print-earrings-3-pairs",
+    "title": "Kenneth Jay Lane Interchangeable Animal Print Earrings, 3 Pairs",
+    "descriptionHtml": "<p>One set of interchangeable clips with three pairs of prints: zebra, tiger and giraffe. Signed KJL.</p>",
+    "price": {
+      "amount": 125,
+      "currencyCode": "USD"
+    },
+    "images": [
+      {
+        "url": "/pieces/vb-e031.jpg",
+        "alt": "Kenneth Jay Lane Interchangeable Animal Print Earrings, 3 Pairs",
+        "width": 600,
+        "height": 400
+      }
+    ],
+    "category": "earrings",
+    "createdAt": "2026-11-15T00:00:00.000Z",
+    "designer": "Kenneth Jay Lane",
+    "decade": "1980s",
+    "origin": "United States",
+    "materials": "Gold-tone, enamel animal prints",
+    "condition": "Excellent vintage condition",
+    "measurements": "2.5 cm high; 2.5 cm wide (1 in; 1 in)",
+    "earringType": "clip",
+    "saleStatus": "available",
+    "translations": {
+      "es": {
+        "title": "Kenneth Jay Lane — Aretes intercambiables con estampado animal, 3 pares",
+        "descriptionHtml": "<p>Un juego de clips intercambiables con tres pares de estampados: cebra, tigre y jirafa. Firmados KJL.</p>",
+        "materials": "Tono dorado, estampados animales en esmalte",
+        "condition": "Excelente estado vintage",
+        "origin": "Estados Unidos",
+        "measurements": "2.5 cm de alto; 2.5 cm de ancho (1 in; 1 in)"
+      }
+    }
   }
 ]
